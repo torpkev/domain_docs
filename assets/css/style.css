@@ -19,3 +19,6 @@ header h1:before {
     content: "" !important;
     font-size: 24px;
 }
+.downloads {
+ display:none; 
+}
