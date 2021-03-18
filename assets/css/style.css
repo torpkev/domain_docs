@@ -17,7 +17,7 @@ footer {
 
 header h1:before {
     content: "" !important;
-    font-size: 24px;
+    margin-left:36px !important;
 }
 .downloads {
  display:none; 
