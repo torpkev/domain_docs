@@ -78,7 +78,7 @@ Flags are the most important thing in Domain - they decide what can happen insid
 Keep in mind that some flags are for everyone, some are for the environment, some impact allowed players or non-allowed players etc.  
 
 Be mindful of what flags you apply, and when you nest fields (place one field within another) keep in mind that the child field can override the flag of the parent.  
-For example, if you have a field that prevents monsters from spawning, and a child field that allows monsters to spawn, in the child field, the monsters would be allowed to spawn.  This is only true however if it is contracdictory.  If you prevent doors being accessed in the parent field and only have monster spawning in the child field, doors will still not be able to be accessed in the child field.
+For example, if you have a field that prevents monsters from spawning, and a child field that allows monsters to spawn, in the child field, the monsters would be allowed to spawn.  This is only true however if it is contradictory.  If you prevent doors being accessed in the parent field and only have monster spawning in the child field, doors will still not be able to be accessed in the child field.
 
 Each flag can be true or false.  If true, that flag will be applied, if false, that flag will NOT be applied.  If both a parent and a child field had for example PREVENT_SPAWN, with the parent set to true and the child set to false, in the parent field, mobs would not spawn.  In the child field, mobs could spawn.
 
@@ -88,4 +88,34 @@ Each flag can be true or false.  If true, that flag will be applied, if false, t
       PREVENT_INTERACT_ARMOR_STAND_BY_NONALLOWED: true
       PREVENT_EXPLOSION_DAMAGE: true
       PREVENT_PLAYER_EXPLOSION_DAMAGE: false
+
+#### Cost to Buy
+
+The cost to buy this Domain block using /domain buy. Set to -1 if it should not be purchasable.  *This requires Vault and a valid economy plugin*
+
+    cost_to_buy: 500
+
+#### Cost to Place
+
+The cost to place this Domain Block. Useful if you want to allow players to make their own blocks, but charge them to place them. *This requires Vault and a valid economy plugin*
+
+    cost_to_place: 0
+    
+#### Cost to Refund
+
+The cost refunded to the player if they 'Take' the field back. *This requires Vault and a valid economy plugin*
+
+    cost_to_refund: 0
+    
+#### Cost to Rent
+
+Default cost to rent this field *This requires Vault and a valid economy plugin*
+
+    cost_to_rent: 0
+    
+#### Days to Rent
+
+Default number of days this field can be rented for
+
+    rent_days: 0
 
