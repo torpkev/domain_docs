@@ -1,0 +1,20 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+footer {
+  display: none !important;
+}
+
+.btn {
+  display: none !important;
+}
+.page-header {
+    background-image: none !important;
+    background-color: black !important;
+    padding: 2px !important;
+}
+h2 {
+    color: inherit !important;
+}
