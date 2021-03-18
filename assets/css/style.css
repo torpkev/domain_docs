@@ -16,6 +16,6 @@ footer {
 }
 
 header h1:before {
-    content: "";
+    content: "" !important;
     font-size: 24px;
 }
