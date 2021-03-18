@@ -3,13 +3,13 @@
 [Home](https://torpkev.github.io/domain_docs)
 
 
-###### Base Material
+##### Base Material
 
 Base Material of the Domain Block. This is the block that 'is' the Domain block. This MUST be a valid Minecraft block, and is required. 
 
     base_material: GOLD_BLOCK
  
-###### Field Display Material
+#### Field Display Material
 
 Domain uses the field display material to display the field visualization.  By default, it uses colored glass, and can be set here.  As with base material, it MUST be a valid Minecraft block and is required.
 
