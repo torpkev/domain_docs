@@ -1,1 +1,5 @@
-theme: jekyll-theme-tactile
+theme: jekyll-theme-slate
+github:
+  is_project_page: false
+title: Domain
+description: Landing Claiming & Protection
