@@ -3,7 +3,7 @@
 [Home](https://torpkev.github.io/domain_docs)
 
 
-##### Base Material
+#### Base Material
 
 Base Material of the Domain Block. This is the block that 'is' the Domain block. This MUST be a valid Minecraft block, and is required. 
 
@@ -15,34 +15,36 @@ Domain uses the field display material to display the field visualization.  By d
 
     field_display_material: ORANGE_STAINED_GLASS
 
-###### Field Display Seconds
+#### Field Display Seconds
 
 The visualization is displayed by default for 30 seconds, if that is too long or too short, you can set it here
 
     field_display_secs: 30
 
-###### Display Name
+#### Display Name
 
 Display name is what the block is called when you hover over it in your inventory.  You can use & color codes
 
     display_name: "&bGrief Prevent"
 
-###### Lore
+#### Lore
 
 Lore is the item lore on the Domain Block that you see when you hover over it in your inventory.  You can use & color codes here, and use | to indicate a new line.  Note that the color resets on each line, so if you change color, apply it again at the start of the line.
 
     lore: "&fGrief Prevent fields protect your builds|&ffrom player griefing and allow|&fyou to claim the area as your own|&dVolume: &725000 blocks" 
 
-###### Volume
+#### Volume
 
 Volume is the number of blocks ***available*** in the field.  This is *NOT* necessarily the number of blocks being used.  You can calculate your volume by using (width x depth x height).
 For example, if you wanted to create a field that was 25 by 25 and 15 tall, you'd do 25 x 25 x 15 = 9375, so you'd want to allow for at least the 9375 blocks, though in practice, rounding up to 9500 makes life a bit easier.
 
     volume: 25000
 
-###### Positions 1 to 9
+#### Positions 1 to 9
 
-Positions 1 through 9 are for creating the recipe to build your own Domain Block.  Note, this approach will be deprecated as of 1.8.0 and future versions will require a new layout.
+Positions 1 through 9 are for creating the recipe to build your own Domain Block. 
+***Note, this approach will be deprecated as of 1.8.0 and future versions will require a new layout.***
+
 Position 1-3 is the top row of a crafting table, as seen left to right.  Position 4-6 is the middle row, and Position 7-9 would be the bottom row.  Each position MUST be filled, and must be a valid Minecraft Material.
 
 You can use AIR to indicate an empty slot, and if you want to make the field unbuildable to most players, BARRIER works well
@@ -57,20 +59,20 @@ You can use AIR to indicate an empty slot, and if you want to make the field unb
     position_8: IRON_BLOCK
     position_9: GOLD_INGOT
 
-###### Field Order
+#### Field Order
 
 Field Order indicates the precedence of fields. The highest number is the field you would be considered indicate the field you would be considered 'in' if you were inside of an area with overlapping fields.
 This is especially useful if you wanted to create an area inside a larger field that has contradictory flags, such as allowing mob spawning when the larger field prevents it
 
     field_order: 2
  
-###### Block In Field
+#### Block In Field
 
 Block in field is a true/false field that indicates if the Domain Block must be within the field.  If true, the block must remain within the cuboid during resizing, if false, then you can set the cuboid away from where the block is.  This is convenient for spawn fields and similar where you want want to keep the blocks in a central location, but have the fields somewhere else.
 
     block_in_field: true 
 
-###### Flags
+#### Flags
 
 Flags are the most important thing in Domain - they decide what can happen inside a claimed area.  Domain has over 200 different flags that can be applied (see [here](https://torpkev.github.io/domain_docs/flags))
 Keep in mind that some flags are for everyone, some are for the environment, some impact allowed players or non-allowed players etc.  
