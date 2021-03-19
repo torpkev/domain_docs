@@ -25,4 +25,4 @@ I will try and keep [lang.yml](https://torpkev.github.io/domain_docs/resources/l
 
 Additional translated language files:
 
-- [Russian](https://torpkev.github.io/domain_docs/resources/user/mircus/lang.yml) provided by Mircus Izgoi
+- [Russian](https://torpkev.github.io/domain_docs/resources/user/mircus/lang.zip) provided by Mircus Izgoi (zipped as it does not display properly in the browser)
