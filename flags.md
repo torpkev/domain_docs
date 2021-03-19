@@ -23,13 +23,9 @@ A full breakdown of each flag is listed below:
 
 ---
 
-**DISPLAY_FAREWELL**
-
-> Displays a message when a player leaves the field
-
-DISPLAY_WELCOME
-
-    Displays a message when a player enters the field
+| Flag Name | Description |
+| DISPLAY_FAREWELL | Displays a message when a player leaves the field |
+| DISPLAY_WELCOME | Displays a message when a player enters the field |
 
 EFFECT_BLINDNESS_NONALLOWED
 
