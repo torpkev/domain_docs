@@ -9,7 +9,7 @@ Each flag can be either true or false.  If true, the flag is active in that fiel
     FLAGNAME_1: true
     FLAGNAME_2: false
 
-Nested fields allow for more complex mixes of contradictory flags, for example, if the parent field has this:
+Nested fields (click [here](https://torpkev.github.io/domain_docs/faq/nestedfields) for an explanation on nested fields) allow for more complex mixes of contradictory flags, for example, if the parent field has this:
 
     FLAGNAME_1: true
     FLAGNAME_2: true
