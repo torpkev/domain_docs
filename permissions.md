@@ -1,5 +1,7 @@
 # Permissions
 
+[Home](https://torpkev.github.io/domain_docs)
+
 | Permission Name | Description | Suggested For |
 | --- | --- | --- |
 | domain.field | Allows players to utilize Domain | Everyone |
