@@ -15,9 +15,10 @@ Nested fields allow for more complex mixes of contradictory flags, for example, 
 And the child field had:
 
     FLAGNAME_1: false
+    FLAGNAME_3: true
 
 
-FLAGNAME_1 would be active in the parent field, but not the child, but FLAGNAME_2 would be active in both parent and child.
+FLAGNAME_1 would be active in the parent field, but not the child, but FLAGNAME_2 would be active in both parent and child, and FLAGNAME_3 would be active only in the child.
 
 A full breakdown of each flag is listed below:
 
