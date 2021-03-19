@@ -18,6 +18,5 @@ There are several considerations to keep in mind when creating your own Domain B
 
 These decisions should guide the creation of a field, but with experience and experimentation, you should have little difficulty crafting your available Domain blocks with ease. 
 
-Below is a simple grief prevent field that explains each entry that needs to be completed.
 
-Once you have answered these questions, click [here](https://torpkev.github.io/domain_docs/blockconfig) to see what values to use when creating your Domain Block
+Once you have answered these questions, it is always easiest to use a copy of an existing Domain block, modified to suit you, however, it is very important to understand what each value in the block configuration is for.  Click [here](https://torpkev.github.io/domain_docs/blockconfig) for a detailed breakdown of the block configuration.
