@@ -1,0 +1,115 @@
+# display_bypass_snitch will send a message to anyone with the appropriate permission if someone is in bypass mode
+display_bypass_snitch: true
+
+# bypass_log_to_file records bypass actions to a file in your plugin folder
+bypass_log_to_file: true
+
+# allow_block_build, if true, Domain blocks will be craftable
+allow_block_build: true
+
+# remove_bypass_join_quit removes the Domain Bypass flag from a player if the leave/join a server
+remove_bypass_join_quit: true
+
+# expire_blocks, if true will expire the blocks after x days (set in block configuration)
+expire_blocks: true
+
+# perm_limit_by_block, if true will apply a permission based limit on number of blocks allowed
+perm_limit_by_block: false
+
+# fly_warn_seconds is the number of seconds you have as warning before removing fly after leaving a field
+# that has ENABLE_FLY_FOR_ALLOWED
+fly_warn_seconds: 3
+
+# pvp_seconds is deprecated, but will continue to work in the absence of pvp_glow_time and pvp_no_teleport_time
+# pvp_seconds: 30
+
+# pvp_glow_time is the amount of seconds a player will glow after engaging in PVP in a
+# field with the GLOW_NONALLOWED_PLAYER_ON_PVP flag
+pvp_glow_time: 30
+
+# pvp_no_teleport_time is the amount of seconds a player will not be allowed to teleport after engaging
+# in pvp in a field with PREVENT_PVP_TELEPORT_FROM or PREVENT_PVP_TELEPORT_TO flags
+pvp_no_teleport_time: 30
+
+# domain_shop is a true/false flag for if the /domain buy command should be used
+# The buy price must be saved in the block configuration as well in order to list the block
+domain_shop: true
+
+# display_name is the tag used when sending messages to a player
+display_name: "&6[&fDomain&6]&r"
+
+# default_name is the name applied to a new field.  You can use the following substitutions:
+# <%player%> = Player Name
+# <%type%> = Block Type
+default_name: "<%player%>'s <%type%>"
+
+# default_welcome is the welcome message applied to a new field.  You can use the following substitutions:
+# <%player%> = Player Name
+# <%type%> = Block Type
+default_welcome: "Entering <%player%>'s <%type%> field"
+
+# default_farewell is the farewell message applied to a new field.  You can use the following substitutions:
+# <%player%> = Player Name
+# <%type%> = Block Type
+default_farewell: "Leaving <%player%>'s <%type%> field"
+
+# blocked_commands are commands that are blocked if the appropriate flag is assigned to a field
+blocked_commands:
+  home:
+    - /ehome
+    - /essentials:ehome
+    - /essentials:home
+    - /home
+    - /sethome
+    - /esethome
+    - /essentials:sethome
+    - /essentials:esethome
+    - /createhome
+    - /essentials:createhome
+    - /essentials:ecreatehome
+  teleport:
+    - /tpa
+    - /tpahere
+    - /tpaall
+    - /tpaccept
+    - /tpcancel
+    - /tpall
+    - /tpask
+    - /tpdeny
+    - /tp2p
+    - /essentials:tpa
+    - /essentials:tpahere
+    - /essentials:tpaall
+    - /essentials:tpaccept
+    - /essentials:tpcancel
+    - /essentials:tpall
+    - /essentials:tpask
+    - /essentials:tpdeny
+    - /essentials:tp2p
+    - /essentials:etpa
+    - /essentials:etpahere
+    - /essentials:etpaall
+    - /essentials:etpaccept
+    - /essentials:etpcancel
+    - /essentials:etpall
+    - /essentials:etpask
+    - /essentials:etpdeny
+    - /essentials:etp2p
+    - /ejump
+    - /essentials:jump
+    - /essentials:ejump
+    - /jump
+    - /back
+    - /eback
+    - /essentials:back
+    - /essentials:eback
+  custom1:
+    - /duty
+  custom2:
+    - /suicide
+  custom3:
+    - /spawn
+  custom4:
+    - /duty
+    - /suicide
+    - /spawn
