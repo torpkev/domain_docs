@@ -1,6 +1,6 @@
 # Languages
 
-[Home](https://torpkev.github.io/domain_docs/resources/lang.yml)
+[Home](https://torpkev.github.io/domain_docs/resources)
 
 Domain supports language translations by modifing the [lang.yml](https://torpkev.github.io/domain_docs/resources/lang.yml) file.
 
