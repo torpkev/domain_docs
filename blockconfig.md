@@ -4,6 +4,8 @@
 
 Below is a breakdown of each value that is used in the block configuration along with a detailed explanation and sample values.  To see the defafault configurations, click [here](https://torpkev.github.io/domain_docs/defaultfiles) - they are an excellent starting point for creating your own Domain Blocks configurations.
 
+---
+
 #### Block Key
 
 Block key is the internal name used to identify this type of block.  It MUST remain unique and should not contain spaces or any special characters
