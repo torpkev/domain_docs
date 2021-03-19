@@ -20,10 +20,8 @@ Best of all, Domain is being actively developed, so you're not stuck with an out
 
 [Bypass Mode](https://torpkev.github.io/domain_docs/bypass)
 
-## FAQ
+## Questions
 
-[How do I resize a field?](https://torpkev.github.io/domain_docs/faq/resize)
+View some of the frequently asked questions [here](https://torpkev.github.io/domain_docs/faq)
 
-[How and why would I use spawner fields?](https://torpkev.github.io/domain_docs/faq/spawner)
-
-[What are nested fields and how do I use them?](https://torpkev.github.io/domain_docs/faq/nestedfields)
+If you have other questions, please reach out on Discord
