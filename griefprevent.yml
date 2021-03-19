@@ -1,0 +1,190 @@
+# Block key is the internal name used to identify this type of block. It MUST remain unique and should not contain spaces or any special characters
+block_key: griefprevent
+
+# Base Material of the Domain Block. This is the block that ‘is’ the Domain block. This MUST be a valid Minecraft block, and is required.
+base_material: GOLD_BLOCK
+
+# Domain uses the field display material to display the field visualization. By default, it uses colored glass, and can
+# be set here. As with base material, it MUST be a valid Minecraft block and is required.
+field_display_material: ORANGE_STAINED_GLASS
+
+# The visualization is displayed by default for 30 seconds, if that is too long or too short, you can set it here
+field_display_secs: 30
+
+# Display name is what the block is called when you hover over it in your inventory. You can use & color codes
+display_name: "&bGrief Prevent"
+
+# Lore is the item lore on the Domain Block that you see when you hover over it in your inventory. You can use & color codes here,
+# and use	to indicate a new line. Note that the color resets on each line, so if you change color, apply it again at the start of the line.
+lore: "&fGrief Prevent fields protect your builds|&ffrom player griefing and allow|&fyou to claim the area as your own|&dVolume: &725000 blocks"
+
+# Volume is the number of blocks available in the field. This is NOT necessarily the number of blocks being used. You can
+# calculate your volume by using (width x depth x height). For example, if you wanted to create a field that was 25 by 25 and 15 tall,
+# you’d do 25 x 25 x 15 = 9375, so you’d want to allow for at least the 9375 blocks, though in practice, rounding up to 9500 makes life a bit easier.
+volume: 25000
+
+# Positions 1 through 9 are for creating the recipe to build your own Domain Block. Note, this approach will be deprecated as
+# of 1.8.0 and future versions will require a new layout.
+# Position 1-3 is the top row of a crafting table, as seen left to right. Position 4-6 is the middle row, and Position 7-9 would
+# You can use AIR to indicate an empty slot, and if you want to make the field unbuildable to most players, BARRIER works well
+position_1: ORANGE_DYE
+position_2: BARRIER
+position_3: ORANGE_DYE
+position_4: BARRIER
+position_5: ORANGE_DYE
+position_6: BARRIER
+position_7: ORANGE_DYE
+position_8: BARRIER
+position_9: ORANGE_DYE
+
+# Field Order indicates the precedence of fields. The highest number is the field you would be considered indicate the field
+# you would be considered ‘in’ if you were inside of an area with overlapping fields. This is especially useful if you wanted
+# to create an area inside a larger field that has contradictory flags, such as allowing mob spawning when the larger field prevents it
+field_order: 2
+
+# Block in field is a true/false field that indicates if the Domain Block must be within the field. If true, the block must remain
+# within the cuboid during resizing, if false, then you can set the cuboid away from where the block is. This is convenient for spawn
+# fields and similar where you want want to keep the blocks in a central location, but have the fields somewhere else.
+block_in_field: true
+
+# Flags are the most important thing in Domain - they decide what can happen inside a claimed area. Domain has over 200 different flags
+# that can be applied. Keep in mind that some flags are for everyone, some are for the environment, some impact allowed players
+# or non-allowed players etc.  Be mindful of what flags you apply, and when you nest fields (place one field within another) keep in mind
+# that the child field can override the flag of the parent.
+# For example, if you have a field that prevents monsters from spawning, and a child field that allows monsters to spawn, in the child
+# field, the monsters would be allowed to spawn. This is only true however if it is contradictory. If you prevent doors being accessed
+# in the parent field and only have monster spawning in the child field, doors will still not be able to be accessed in the child field.
+# Each flag can be true or false. If true, that flag will be applied, if false, that flag will NOT be applied. If both a parent and a
+# child field had for example PREVENT_SPAWN, with the parent set to true and the child set to false, in the parent field, mobs would not
+# spawn. In the child field, mobs could spawn.
+flags:
+  DISPLAY_FAREWELL: true
+  DISPLAY_WELCOME: true
+  PREVENT_ANIMAL_DAMAGE_BY_NONALLOWED: true
+  PREVENT_ARROW_INTERACT: true
+  PREVENT_BLOCK_BURN: true
+  PREVENT_BREAK: true
+  PREVENT_BREAK_BOAT_BY_NONALLOWED: true
+  PREVENT_BREAK_MINECART_BY_NONALLOWED: true
+  PREVENT_BUCKET_FILL_BY_NONALLOWED: true
+  PREVENT_BUILD: true
+  PREVENT_CROP_DAMAGE_BY_NONALLOWED: true
+  PREVENT_EXPLOSION_DAMAGE: true
+  PREVENT_FIRE_IGNITE: true
+  PREVENT_FIRE_SPREAD: true
+  PREVENT_INTERACT: true
+  PREVENT_INTERACT_ANVIL_BY_NONALLOWED: true
+  PREVENT_INTERACT_ARMOR_STAND_BY_NONALLOWED: true
+  PREVENT_INTERACT_BARREL_BY_NONALLOWED: true
+  PREVENT_INTERACT_BED_BY_NONALLOWED: true
+  PREVENT_INTERACT_BELL_BY_NONALLOWED: true
+  PREVENT_INTERACT_BLAST_FURNACE_BY_NONALLOWED: true
+  PREVENT_INTERACT_BREWING_STAND_BY_NONALLOWED: true
+  PREVENT_INTERACT_CAMPFIRE_BY_NONALLOWED: true
+  PREVENT_INTERACT_CARTOGRAPHY_TABLE_BY_NONALLOWED: true
+  PREVENT_INTERACT_CHEST_BY_NONALLOWED: true
+  PREVENT_INTERACT_COMPOSTER_BY_NONALLOWED: true
+  PREVENT_INTERACT_CRAFTING_TABLE_BY_NONALLOWED: true
+  PREVENT_INTERACT_DISPENSER_BY_NONALLOWED: true
+  PREVENT_INTERACT_DROPPER_BY_NONALLOWED: true
+  PREVENT_INTERACT_ENCHANTING_TABLE_BY_NONALLOWED: true
+  PREVENT_INTERACT_ENDERCHEST_BY_NONALLOWED: true
+  PREVENT_INTERACT_FLOWERPOT_BY_NONALLOWED: true
+  PREVENT_INTERACT_FURNACE_BY_NONALLOWED: true
+  PREVENT_INTERACT_GRINDSTONE_BY_NONALLOWED: true
+  PREVENT_INTERACT_HOPPER_BY_NONALLOWED: true
+  PREVENT_INTERACT_ITEM_FRAME_BY_NONALLOWED: true
+  PREVENT_INTERACT_JUKEBOX_BY_NONALLOWED: true
+  PREVENT_INTERACT_LECTERN_BY_NONALLOWED: true
+  PREVENT_INTERACT_LOOM_BY_NONALLOWED: true
+  PREVENT_INTERACT_SHULKERBOX_BY_NONALLOWED: true
+  PREVENT_INTERACT_SMOKER_BY_NONALLOWED: true
+  PREVENT_INTERACT_STONECUTTER_BY_NONALLOWED: true
+  PREVENT_ITEM_FRAME_ACCESS_BY_NONALLOWED: true
+  PREVENT_LAVA_FLOW_TO: true
+  PREVENT_LAVA_PLACE: true
+  PREVENT_PISTON_MOVE_INTO_FIELD: true
+  PREVENT_PISTON_MOVE_OUT_FIELD: true
+  PREVENT_WATER_FLOW_TO: true
+  PREVENT_SHEAR_BY_NONALLOWED: true
+  PREVENT_SPAWNER_EGG: true
+  PREVENT_TAME_BY_NONALLOWED: true
+  PREVENT_TELEPORT_TO: true
+  PREVENT_VEHICLE_ENTER_BY_NONALLOWED: true
+  PREVENT_VEHICLE_EXIT_BY_NONALLOWED: true
+  PREVENT_VILLAGER_DAMAGE_BY_ALL: true
+  PREVENT_VILLAGER_FIRE: true
+  PREVENT_VILLAGER_TRADE_BY_NONALLOWED: true
+  PREVENT_CROP_DAMAGE_BY_NONPLAYER: true
+
+# The cost to buy this Domain block using /domain buy. Set to 0 if it should not be purchasable. This requires Vault and a valid economy plugin
+cost_to_buy: 500
+
+# The cost to place this Domain Block. Useful if you want to allow players to make their own blocks, but charge them to place them. This requires Vault and a valid economy plugin
+cost_to_place: 0
+
+# The cost refunded to the player if they ‘Take’ the field back. This requires Vault and a valid economy plugin
+cost_to_refund: 0
+
+# Default cost to rent this field This requires Vault and a valid economy plugin
+cost_to_rent: 0
+
+# Default number of days this field can be rented for
+rent_days: 0
+
+# Default radius is applied when placing the field the first time. It is the number of blocks along the X and Z axis from the Domain block.
+# For example, if you want a field that is 10x10, you’d use a radius of 5
+default_radius: 15
+
+# Default Height Up is applied when placing the field the first time. It is the number of blocks up from the Domain Block. If you placed
+# the Domain block on the ground and wanted it to extend up 7 blocks, set it to 7.
+default_height_up: 10
+
+# Default Height Down is applied when placing the field the first time. It is the number of blocks down from the Domain Block.
+default_height_down: 5
+
+# Invalid worlds is the list of worlds in which the Domain Block cannot be placed. Any world not in this list can have it placed there.
+# This is a list, so you can apply multiple worlds as necessary.
+invalid_worlds:
+  - world_nether
+  - world_the_end
+
+# Number of days before the field is considered abandoned. If the owner is offline for this number of days consecutively, the field
+# will auto-expire. If they owner comes back online, the number of days as offline resets to 0.
+# This is important especially for high-traffic servers. Without expiring the fields, you could have a large number of players play
+# one time and claim a field, over time this could include large amounts of prime real-estate. When the fields expire, the field becomes
+# disabled, and the flags will no longer apply. There is a purge command which can be used in conjunction with offline_days in order
+# to clear your server of old fields.
+offline_days: 90
+
+# If true, the Y axis (height) is ignored on this block and regardless of resize, will stretch from bedrock to max height. Defaults to false.
+ignore_y_axis: false
+
+# Merging blocks is used to increase the available volume within a field. When configured to allow it, a player could have a field with a
+# 25,000 block volume, but may need more space. To save the player placing another field and having to maintain 2 fields, they can instead
+# merge the field, which would increase the available volume (without actually resizing the field). Max Merge controls how many times a field
+# can be merged, effectively placing a cap on the maximum number of blocks allowed in the field.
+max_merge: 3
+
+# Max blocks is the limit per player for this type of Domain Block. For example, if you set this to 3, then if they tried to place a fourth
+# field, they would receive an error. This number can be overridden however by using the domain.BLOCK KEY.limit.NUMBER where block key is the
+# key from the configuration and number is the limit. Whichever is higher is the limit applied to the player. So if it was 3 in the configuration,
+# but they had domain.griefprevent.limit.5, then they could place 5 blocks. If they had domain.griefprevent.limit.1, then they could place 3 as
+# the max blocks value would override.
+max_blocks: 5
+
+# If true, prevent resize will stop the user from resizing the field by using the option in the menu. Instead, they will be constrained to
+# whatever is in the default_radius/default_height_up/default_height_down, regardless of the available volume
+prevent_resize: false
+
+# If true, one time use will prevent a player from ‘taking’ a field they have already placed. When set to false, the player can take the field,
+# which will remove the field and return the Domain Block to the player so they can place it again. If true, attempting to take the field will destroy it.
+one_time_use: false
+
+# If true, visualize corners will force any Domain visualization to only display the corner blocks. This is especially useful for very large field
+# types where visualizing the field may cause some lag for the player. If false, the cube visualization is used by default.
+visualize_corners: false
+
+# If true, visualize ring will force any Domain visualization to use the ‘ring’ visualization which surrounds the field, but only at player height.
+# If false, it will use either corner visualization if that is set true, if not, then it will default back to cube visualization.
+visualize_ring: false
