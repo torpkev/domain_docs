@@ -1,3 +1,5 @@
+![Domain](/images/domain_96.png)
+
 Domain is designed for Spigot for Minecraft 1.13/1.14/1.15/1.16, has over 150 flags that can be mixed together to form custom Domain blocks. These blocks can be provided or sold to your players to protect their builds from monsters and other players.
 
 It features a simple to use block management system that will allow your users to resize their field, to enable/disable their fields, display the field boundaries or even make sub-fields which they can rent out to other players.
