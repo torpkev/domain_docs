@@ -20,6 +20,8 @@ Best of all, Domain is being actively developed, so you're not stuck with an out
 
 [Bypass Mode](https://torpkev.github.io/domain_docs/bypass)
 
+## FAQ
+
 [How and why would I use spawner fields?](https://torpkev.github.io/domain_docs/spawner)
 
 [What are nested fields and how do I use them?](https://torpkev.github.io/domain_docs/nestedfields)
