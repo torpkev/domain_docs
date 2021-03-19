@@ -4,49 +4,70 @@
 
 ---
 
-**Bypass Mode**
+### Bypass Mode
 
-> Domain Bypass is a way for staff to interact with a players field as though they are the owner.  While in bypass mode, the restrictions placed on a player by Domain are ignored.
-> Running the command will toggle the status, while active, a bossbar will appear at the top of the screen.
-> Requires domain.bypass or domain.admin
-> /domain bypass
+Domain Bypass is a way for staff to interact with a players field as though they are the owner.  While in bypass mode, the restrictions placed on a player by Domain are ignored.
+Running the command will toggle the status, while active, a bossbar will appear at the top of the screen.
+*Requires domain.bypass or domain.admin*
 
-Debug Mode
+    /domain bypass
+
+### Debug Mode
+
 Enabling debug mode should ONLY be done when troubleshooting an issue, and while it is enabled, output will be pushed to the console, resulting in potentially large log files.
 Running the command will toggle the status.
-/domain debug
 
-Reloading the Configuration
+    /domain debug
+
+### Reloading the Configuration
+
 Reloads the configuration and data files. It is intended mostly for troubleshooting purposes and is not recommended for while the server is live
-Requires domain.admin or run from console
-/domain reload
+*Requires domain.admin or run from console*
 
-Display the Domain URL
+    /domain reload
+
+### Display the Domain URL
+
 Displays a link to this page
-/domain url
 
-Display the current version
-/domain version
+    /domain url
 
-Display the current field
+### Version
+
+    /domain version
+
+###Visualization
+
 You can display your own fields by standing within them and running the display command.  
 
-Default display - this will display with the default visualization type
-/domain display
+**Default display - this will display with the default visualization type**
+    /domain display
 
-Clear any existing visualization
-/domain display clear
+**Clear**
 
-Corner visualization - Will display only the corners of the field, intended for large fields
-/domain display corners
+Clears any existing visualization
 
-Cube visualization - This will display a hollow cube of the field
-/domain display cube
+    /domain display clear
 
-Ring Visualization - This will display a ring at player height around the field, intended for large fields
-/domain display ring
+**Corner visualization**
 
-Adding/Removing Players/Clans from the field.
+Will display only the corners of the field, intended for large fields
+
+    /domain display corners
+
+**Cube visualization**
+
+This will display a hollow cube of the field
+
+    /domain display cube
+
+**Ring Visualization**
+
+This will display a ring at player height around the field, intended for large fields
+
+    /domain display ring
+
+### Adding/Removing Players/Clans from the field.
 
 Only the owner or current renter can run this command, and they must be standing in the field they want to add permission to.
 Player being added must be online, or have played on the server before.
