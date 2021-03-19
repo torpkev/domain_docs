@@ -4,7 +4,7 @@
 
 ---
 
-### Bypass Mode
+## Bypass Mode
 
 Domain Bypass is a way for staff to interact with a players field as though they are the owner.  While in bypass mode, the restrictions placed on a player by Domain are ignored.
 Running the command will toggle the status, while active, a bossbar will appear at the top of the screen.
@@ -12,83 +12,83 @@ Running the command will toggle the status, while active, a bossbar will appear 
 
     /domain bypass
 
-### Debug Mode
+## Debug Mode
 
 Enabling debug mode should ONLY be done when troubleshooting an issue, and while it is enabled, output will be pushed to the console, resulting in potentially large log files.
 Running the command will toggle the status.
 
     /domain debug
 
-### Reloading the Configuration
+## Reloading the Configuration
 
 Reloads the configuration and data files. It is intended mostly for troubleshooting purposes and is not recommended for while the server is live
 *Requires domain.admin or run from console*
 
     /domain reload
 
-### Display the Domain URL
+## Display the Domain URL
 
 Displays a link to this page
 
     /domain url
 
-### Version
+## Version
 
     /domain version
 
-### Visualization
+## Visualization
 
 You can display your own fields by standing within them and running the display command.  
 
-#### Default display
+### Default display
 
 This will display with the default visualization type**
 
     /domain display
 
-#### Clear
+### Clear
 
 Clears any existing visualization
 
     /domain display clear
 
-**Corner visualization**
+### Corner visualization
 
 Will display only the corners of the field, intended for large fields
 
     /domain display corners
 
-**Cube visualization**
+### Cube visualization
 
 This will display a hollow cube of the field
 
     /domain display cube
 
-**Ring Visualization**
+### Ring Visualization
 
 This will display a ring at player height around the field, intended for large fields
 
     /domain display ring
 
-### Adding/Removing Players/Clans from the field.
+## Adding/Removing Players/Clans from the field.
 
 Only the owner or current renter can run this command, and they must be standing in the field they want to add permission to.
 Player being added must be online, or have played on the server before.
-* Myriad Clans is the only clan plugin supported by Domain
+***Myriad Clans is the only clan plugin supported by Domain***
 
-Allow Player
-/domain allow <player name>
+### Allow Player
+    /domain allow <player name>
 
-Disallow Player
-/domain disallow <player name>
+### Disallow Player
+    /domain disallow <player name>
 
-Allow Clan
-/domain clan allow <clan tag>
+### Allow Clan
+    /domain clan allow <clan tag>
 
-Disallow Clan
-/domain clan disallow <clan tag>
+### Disallow Clan
+    /domain clan disallow <clan tag>
 
-Listing and Searching for fields
+## Listing and Searching for fields
 You can find the current fields you're in by running the list command.  It will display any field you are currently owner or renter of at your current location
 /domain list
 
