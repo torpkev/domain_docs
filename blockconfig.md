@@ -2,6 +2,11 @@
 
 [Home](https://torpkev.github.io/domain_docs)
 
+#### Block Key
+
+Block key is the internal name used to identify this type of block.  It MUST remain unique and should not contain any special characters
+
+    block_key: griefprevent
 
 #### Base Material
 
@@ -118,4 +123,82 @@ Default cost to rent this field *This requires Vault and a valid economy plugin*
 Default number of days this field can be rented for
 
     rent_days: 0
+
+#### Default Radius
+
+Default radius is applied when placing the field the first time.  It is the number of blocks along the X and Z axis from the Domain block.  For example, if you want a field that is 10x10, you'd use a radius of 5
+
+    default_radius: 15
+
+#### Default Height Up
+
+Default Height Up is applied when placing the field the first time.  It is the number of blocks up from the Domain Block.  If you placed the Domain block on the ground and wanted it to extend up 7 blocks, set it to 7.
+
+    default_height_up: 10
+
+#### Default Height Down
+
+Default Height Down is applied when placing the field the first time.  It is the number of blocks down from the Domain Block.
+
+    default_height_down: 5
+
+#### Invalid Worlds
+
+Invalid worlds is the list of worlds in which the Domain Block cannot be placed.  Any world not in this list can have it placed there.  This is a list, so you can apply multiple worlds as necessary.
+
+    invalid_worlds:
+      - world_nether
+      - world_the_end
+
+#### Offline Days
+
+Number of days before the field is considered abandoned. If the owner is offline for this number of days consecutively, the field will auto-expire.  If they owner comes back online, the number of days as offline resets to 0.
+
+This is important especially for high-traffic servers.  Without expiring the fields, you could have a large number of players play one time and claim a field, over time this could include large amounts of prime real-estate.  When the fields expire, the field becomes disabled, and the flags will no longer apply.  There is a purge command which can be used in conjunction with offline_days in order to clear your server of old fields.
+
+    offline_days: 30
+
+#### Ignore Y-Axis
+
+If true, the Y axis (height) is ignored on this block and regardless of resize, will stretch from bedrock to max height. Defaults to false.
+
+    ignore_y_axis: false
+
+#### Max Merge
+
+Merging blocks is used to increase the available volume within a field.  When configured to allow it, a player could have a field with a 25,000 block volume, but may neeed more space.  To save the player placing another field and having to maintain 2 fields, they can instead merge the field, which would increase the available volume (without actually resizing the field).  Max Merge controls how many times a field can be merged, effectively placing a cap on the maximum number of blocks allowed in the field.
+
+    max_merge: 3
+
+#### Max Blocks
+
+Max blocks is the limit per player for this type of Domain Block.  For example, if you set this to 3, then if they tried to place a fourth field, they would receive an error.  This number can be overridden however by using the domain.**BLOCK KEY**.limit.**NUMBER** where block key is the key from the configuration and number is the limit.  Whichever is higher is the limit applied to the player.  So if it was 3 in the configuration, but they had domain.griefprevent.limit.5, then they could place 5 blocks.  If they had domain.griefprevent.limit.1, then they could place 3 as the max blocks value would override.
+
+    max_block: 4
+
+#### Prevent Resize
+
+If true, prevent resize will stop the user from resizing the field by using the option in the menu.  Instead, they will be constrained to whatever is in the default_radius/default_height_up/default_height_down, regardless of the available volume
+
+    prevent_resize: false
+
+#### One-time Use
+
+If true, one time use will prevent a player from 'taking' a field they have already placed.  When set to false, the player can take the field, which will remove the field and return the Domain Block to the player so they can place it again.  If true, attempting to take the field will destroy it.
+
+    one_time_use: false
+
+#### Visualize Corners
+
+If true, visualize corners will force any Domain visualization to only display the corner blocks.  This is especially useful for very large field types where visualizing the field may cause some lag for the player.  If false, the cube visualization is used by default.
+
+    visualize_corners: false
+
+#### Visualize Ring
+
+If true, visualize ring will force any Domaian visualization to use the 'ring' visualization which surrounds the field, but only at player height.  If false, it will use either corner visualization if that is set true, if not, then it will default back to cube visualization.
+
+    visualize_ring: false
+
+#### Spawner
 
