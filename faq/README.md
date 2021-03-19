@@ -10,3 +10,5 @@
 [What are nested fields and how do I use them?](https://torpkev.github.io/domain_docs/faq/nestedfields)
 
 [How do I create a teleport portal?](https://torpkev.github.io/domain_docs/faq/teleport)
+
+[How do I use Domain to protect my spawn area?](https://torpkev.github.io/domain_docs/faq/spawn)
