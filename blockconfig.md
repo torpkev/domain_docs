@@ -236,7 +236,7 @@ The same field can also spawn in zombie villagers, however, it is a 5/100 chance
         # Chance (0-100) that the mob will spawn as a baby IF it is an ageable mob (animals, zombies etc.)
         baby_chance: 10
         # The number of blocks to consider when checking for entities
-        max_distance: 16
+        max_distance: 32
         # Sets a cap on the number of this type of entity that can spawn within 32 blocks
         max_entities: 20
       ZOMBIE_VILLAGER:
@@ -258,7 +258,7 @@ The same field can also spawn in zombie villagers, however, it is a 5/100 chance
         # Chance (0-100) that the mob will spawn as a baby IF it is an ageable mob (animals, zombies etc.)
         baby_chance: 0
         # The number of blocks to consider when checking for entities
-        max_distance: 16
+        max_distance: 32
         # Sets a cap on the number of this type of entity that can spawn within 32 blocks
         max_entities: 5
  
