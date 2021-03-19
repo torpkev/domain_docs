@@ -1,5 +1,7 @@
 # Bypass Mode
 
+[Home](https://torpkev.github.io/domain_docs)
+
 As a staff member on a Minecraft server, you need to be able to check up on your players and help them as needed.  
 However, chances are you're there to play as well, which is why Domain does not give any sweeping powers to mods/admins by default.
 
