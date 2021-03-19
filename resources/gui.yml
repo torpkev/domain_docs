@@ -1,0 +1,232 @@
+# The gui options below allow you to modify the look/feel of the GUI menus
+# Each isbroken out into 3-4 parts.  gui.<type>.material, gui.<type>.name, gui.<type>.lore and gui.<type>.enabled (not in all options)
+# Material MUST be a valid Minecraft material.  Lore can take a new line by using the | character.  Both name and lore can use & color codes.
+# The enabled option is only available on gui options that do things such as resizing, visualizing etc.
+gui:
+  na:
+    name: "&0."
+    material: BLACK_STAINED_GLASS_PANE
+  error:
+    material: RED_STAINED_GLASS_PANE
+  disabled:
+    material: BARRIER
+    lore: "&fThis option is not available"
+  back:
+    material: NETHER_STAR
+    name: "&bBack"
+    lore: "&fReturn to previous page"
+  display_field:
+    material: BEACON
+    name: "&bDisplay Field"
+    lore: "&fVisualize the field"
+    enabled: true
+  adminblock:
+    material: END_CRYSTAL
+    name: "&bAdmin Block"
+    lore: "&fConvert this to an Admin Block"
+    enabled: true
+  adminblock_set:
+    material: PLAYER_HEAD
+    name: "&4Admin Block"
+    lore: "&fConvert back to a player block"
+    enabled: true
+  teleport_disabled:
+    material: BARRIER
+    name: "&4Teleport disabled - Flag not set"
+    lore: "&fYou must set the Teleport flag|&fin order to access the|&fteleport to command"
+    enabled: true
+  teleport:
+    material: COMPASS
+    name: "&bTeleport"
+    lore: "&fGives a teleport-to wand to set the|&fteleport location of the field"
+    enabled: true
+  command_on_enter_disabled:
+    material: BARRIER
+    name: "&4Run Command On Enter disabled - Flag not set"
+    lore: "&fYou must set the Run Command flag|&fin order to access Run Command on Enter"
+    enabled: true
+  command_on_enter:
+    material: REPEATING_COMMAND_BLOCK
+    name: "&bRun Command On Enter"
+    lore: "&fAllows you to set the command to run|&fwhen someone enters the field"
+    enabled: true
+  command_on_leave_disabled:
+    material: BARRIER
+    name: "&4Run Command On Leave disabled - Flag not set"
+    lore: "&fYou must set the Run Command flag|&fin order to access Run Command on Leave"
+    enabled: true
+  command_on_leave:
+    material: CHAIN_COMMAND_BLOCK
+    name: "&bRun Command On Leave"
+    lore: "&fAllows you to set the command to run|&fwhen someone leaves the field"
+    enabled: true
+  edit_field:
+    material: ENCHANTING_TABLE
+    name: "&bEdit Field"
+    lore: "&fAccess the Domain Edit Menu"
+    enabled: true
+  edit_name:
+    material: NAME_TAG
+    name: "&bEdit Name"
+    lore: "&fModifies the name of the field"
+    enabled: true
+  edit_welcome:
+    material: WRITABLE_BOOK
+    name: "&bEdit Welcome Message"
+    lore: "&fModifies the welcome message for the field"
+    enabled: true
+  edit_farewell:
+    material: WRITABLE_BOOK
+    name: "&bEdit Farewell Message"
+    lore: "&fModifies the farewell message for the field"
+    enabled: true
+  edit_resize:
+    material: DAYLIGHT_DETECTOR
+    name: "&bResize"
+    lore: "&fGives a Domain Resize wand so you|&fcan resize the field"
+    enabled: true
+  edit_merge:
+    material: ANVIL
+    name: "&bMerge"
+    lore: "&fAllows you to merge multiple Domain blocks|&ftogether in order to increase max volume"
+    enabled: true
+  edit_commands:
+    material: COMMAND_BLOCK
+    name: "&bAdmin Commands"
+    lore: "&fAccess to Administrator commands"
+    enabled: true
+  edit_take:
+    material: DIAMOND_PICKAXE
+    name: "&bTake"
+    lore: "&fAllows you to remove the Domain block"
+    enabled: true
+  edit_status:
+    material: LEVER
+    name: "&bEnable/Disable"
+    lore: "&fAllows you to change the status of|&fthe Domain block.  No flags will|&fbe applied if disabled"
+    enabled: true
+  info:
+    material: KNOWLEDGE_BOOK
+    name: "&bField Information"
+    lore: "&fOpens the Domain Information Menu"
+    enabled: true
+  info_info:
+    material: PAPER
+    name: "&bField Information"
+    lore: "&fDisplays information about your field"
+    enabled: true
+  info_who:
+    material: ENDER_EYE
+    name: "&bWho else is in field?"
+    lore: "&fDisplays a list of other players in your field"
+    enabled: true
+  info_flags:
+    material: YELLOW_BANNER
+    name: "&bFlags"
+    lore: "&fDisplays the flags currently assigned to this field"
+    enabled: true
+  info_flags_previous:
+    material: LIGHT_BLUE_CONCRETE
+    name: "&bPrevious"
+    lore: "&fGoes to the previous page"
+    enabled: true
+  info_flags_previous_disabled:
+    material: GRAY_CONCRETE
+    name: "&4Previous"
+    lore: "No previous pages found"
+    enabled: true
+  info_flags_next:
+    material: ORANGE_CONCRETE
+    name: "&bNext"
+    lore: "&fGoes to the next page"
+    enabled: true
+  info_flags_next_disabled:
+    material: GRAY_CONCRETE
+    name: "&4Next"
+    lore: "No more pages found"
+    enabled: true
+  info_rent:
+    material: OAK_SIGN
+    name: "&bRent Info"
+    lore: "&fDisplays any rent information for this field"
+    enabled: true
+  permission:
+    material: PLAYER_HEAD
+    name: "&bPermissions"
+    lore: "&fOpens the Domain Permissions menu|&eMay take a few moments to open"
+    enabled: true
+  permission_add:
+    material: TOTEM_OF_UNDYING
+    name: "&bAdd Player"
+    lore: "&fAllows you to add a player to the field"
+    enabled: true
+  permission_make_owner:
+    material: END_CRYSTAL
+    name: "&bMake Owner"
+    lore: "&fChanges ownership of the block to the player"
+    enabled: true
+  permission_remove:
+    material: BARRIER
+    name: "&bRemove Player"
+    lore: "&fRemoves the player from the field permissions"
+    enabled: true
+  permission_previous:
+    material: LIGHT_BLUE_CONCRETE
+    name: "&bPrevious"
+    lore: "&fGoes to the previous page"
+  permission_previous_disabled:
+    material: GRAY_CONCRETE
+    name: "&4Previous"
+    lore: "No previous pages found"
+  permission_next:
+    material: ORANGE_CONCRETE
+    name: "&bNext"
+    lore: "&fGoes to the next page"
+  permission_next_disabled:
+    material: GRAY_CONCRETE
+    name: "&4Next"
+    lore: "No more pages found"
+  permission_edit_player_blank:
+    material: YELLOW_STAINED_GLASS_PANE
+    name: ""
+    lore: ""
+  permission_add_blank_1:
+    material: GREEN_STAINED_GLASS_PANE
+    name: ""
+    lore: ""
+  permission_add_blank_2:
+    material: LIME_STAINED_GLASS_PANE
+    name: ""
+    lore: ""
+  take_no:
+    material: RED_STAINED_GLASS_PANE
+    name: "&4No"
+    lore: "&fCancels taking the Domain block"
+  take_yes:
+    material: GREEN_STAINED_GLASS_PANE
+    name: "&2Yes"
+    lore: "&fConfirms taking the Domain block"
+  flag_allow:
+    material: LIME_STAINED_GLASS_PANE
+    name: "&2Allow"
+    lore: "&fAllows this flag in the field"
+  flag_deny:
+    material: RED_STAINED_GLASS_PANE
+    name: "&4Deny"
+    lore: "&fDenies this flag in the filed"
+  flag_add:
+    material: LIME_CONCRETE
+    name: "&aAdd Flag"
+    lore: "&fAdds a new flag to the field"
+  rent_info:
+    material: BOOK
+    name: "&bRent Info"
+    lore: "&fDisplays rent information for this field"
+  rent_cost:
+    material: GOLD_INGOT
+    name: "&bRent Cost"
+    lore: "&fSets the rent cost"
+  rent_days:
+    material: CLOCK
+    name: "&bRent Days"
+    lore: "&fSets the rent days"
