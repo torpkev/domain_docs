@@ -17,12 +17,15 @@ Once you place the field, following the instructions below:
 - Right click the Domain Block with an open hand to open the menu
 
 - Click into the Edit Menu
+- 
  ![editbutton](/images/edit_button.png)
 
 - Click into the Admin Menu
+- 
  ![adminbutton](/images/admin_button.png)
 
 - Click the Teleport button
+- 
  ![teleportbutton](/images/teleport_button.png)
   
 - You will be given a Domain Teleport Wand
