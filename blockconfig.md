@@ -102,7 +102,7 @@ Each flag can be true or false.  If true, that flag will be applied, if false, t
 
 #### Cost to Buy
 
-The cost to buy this Domain block using /domain buy. Set to -1 if it should not be purchasable.  *This requires Vault and a valid economy plugin*
+The cost to buy this Domain block using /domain buy. Set to 0 if it should not be purchasable.  *This requires Vault and a valid economy plugin*
 
     cost_to_buy: 500
 
