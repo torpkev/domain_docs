@@ -22,6 +22,8 @@ Best of all, Domain is being actively developed, so you're not stuck with an out
 
 ## FAQ
 
-[How and why would I use spawner fields?](https://torpkev.github.io/domain_docs/spawner)
+[How do I resize a field?](https://torpkev.github.io/domain_docs/faq/resize)
 
-[What are nested fields and how do I use them?](https://torpkev.github.io/domain_docs/nestedfields)
+[How and why would I use spawner fields?](https://torpkev.github.io/domain_docs/faq/spawner)
+
+[What are nested fields and how do I use them?](https://torpkev.github.io/domain_docs/faq/nestedfields)
