@@ -19,7 +19,7 @@ For example:
     
 You could not put <%player%>, <%blocktype%> or <%location%> into teleported_to_spawn as they may not apply.
 
-I will try and keep [lang.yml](https://torpkev.github.io/domain_docs/resources/lang.yml) up to date with each update, but if changes are required from version to version, it will be noted in the change log.
+I will try and keep [lang.yml](https://torpkev.github.io/domain_docs/resources/lang.yml) up to date with each update, but if changes are required from version to version, it will be noted in the change log.  If a code is ever missing from the lang.yml file, it will default to English.
 
 ---
 
