@@ -1,11 +1,11 @@
 # Permissions
 
-| Permission Name | Description |
-| --- | --- |
-| domain.field | Allows players to utilize Domain |
-| domain.admin | Gives administrator permissions |
-| domain.bypass | Allows the player to use bypass mode |
-| domain.bypass.snitch | Player receives notification when players are in bypass mode |
-| domain.<block key>.limit.<number> | Limits the number of Domain blocks of that type the player is allowed to have |
-| domain.limit.<number> | Limits the number of Domain blocks the player is allowed to have in total |
-| domain.flag.add | Allows flags to be added to a field, even if not in the Domain block configuration |
+| Permission Name | Description | Suggested For |
+| --- | --- | --- |
+| domain.field | Allows players to utilize Domain | Everyone |
+| domain.admin | Gives administrator permissions | Admins |
+| domain.bypass | Allows the player to use bypass mode | Staff | 
+| domain.bypass.snitch | Player receives notification when players are in bypass mode | Admins |
+| domain.**BLOCK_KEY**.limit.**MAX_ALLOWED** | Limits the number of Domain blocks of that type the player is allowed to have | Everyone |
+| domain.limit.**MAX_ALLOWED** | Limits the number of Domain blocks the player is allowed to have in total. Only used if perm_limit_by_block = false in configuration | Everyone |
+| domain.flag.add | Allows flags to be added to a field, even if not in the Domain block configuration | Admins |
