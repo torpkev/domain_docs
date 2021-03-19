@@ -8,7 +8,11 @@ Domain can also utilize Myriad Clans to allow your clan into the field. Myriad C
 
 Best of all, Domain is being actively developed, so you're not stuck with an outdated plugin that you can't use.
 
+[Permissions](https://torpkev.github.io/domain_docs/permissions)
+
 [Commands](https://torpkev.github.io/domain_docs/commands)
+
+[Flags](https://torpkev.github.io/domain_docs/flags)
 
 [Default Files](https://torpkev.github.io/domain_docs/defaultfiles)
 
