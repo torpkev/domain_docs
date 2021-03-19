@@ -89,14 +89,15 @@ Player being added must be online, or have played on the server before.
     /domain clan disallow <clan tag>
 
 ## Listing and Searching for fields
+
 You can find the current fields you're in by running the list command.  It will display any field you are currently owner or renter of at your current location
 /domain list
 
 As a staff member, you can use the search command to find fields 
 Run from console, the results will be displayed, but cannot be interacted with.
 Run in-game requires Domain bypass mode or domain.admin permission and will return 4 options, and results will be paged
-- Open - Opens the Domain block - This can be accessed with domain bypass mode or domain.admin permission
-- TP - Teleports you to the Domain block - This can be accessed with domain bypass mode or domain.admin permission
+- **Open** - Opens the Domain block - This can be accessed with domain bypass mode or domain.admin permission
+- **TP** - Teleports you to the Domain block - This can be accessed with domain bypass mode or domain.admin permission
 - Disable - Disables the field - This requires domain.admin permission
 - Delete - Deletes the field and removes the block - This requires domain.admin permission
 
