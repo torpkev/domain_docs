@@ -30,6 +30,8 @@ Once you place the field, following the instructions below:
   
 - You will be given a Domain Teleport Wand
 
+ ![teleportwand](/images/teleport_wand.png)
+
 - Left click the location you wish to teleport to
 
 - Return to the Domain Block and left click with the wand to set the location
