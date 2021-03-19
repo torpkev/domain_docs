@@ -20,6 +20,8 @@ Best of all, Domain is being actively developed, so you're not stuck with an out
 
 [Creating Your Own Blocks](https://torpkev.github.io/domain_docs/createnew)
 
+[Rented Plots](https://torpkev.github.io/domain_docs/renting)
+
 [Bypass Mode](https://torpkev.github.io/domain_docs/bypass)
 
 ## Questions
