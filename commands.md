@@ -36,14 +36,17 @@ Displays a link to this page
 
     /domain version
 
-###Visualization
+### Visualization
 
 You can display your own fields by standing within them and running the display command.  
 
-**Default display - this will display with the default visualization type**
+#### Default display
+
+This will display with the default visualization type**
+
     /domain display
 
-**Clear**
+#### Clear
 
 Clears any existing visualization
 
