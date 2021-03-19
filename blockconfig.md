@@ -4,7 +4,7 @@
 
 #### Block Key
 
-Block key is the internal name used to identify this type of block.  It MUST remain unique and should not contain any special characters
+Block key is the internal name used to identify this type of block.  It MUST remain unique and should not contain spaces or any special characters
 
     block_key: griefprevent
 
@@ -202,3 +202,63 @@ If true, visualize ring will force any Domaian visualization to use the 'ring' v
 
 #### Spawner
 
+Spawner fields allow mobs to spawn inside of a Domain field in the same manner as using a mob spawner block.  This allows you to create a field for a particular mob and it will continually spawn that type (within limits) without the need to issue a spawner block or eggs to a player.  You can also prevent players from placing a spawner block by utilizing the domain.**BLOCK KEY**.limit.0 permission on them while setting max_blocks to 0.
+
+You could also utilize a spawn block over a large area to spawn in multiple mobs on a continuous basis, for example, if you had a PVE server and wanted to make life difficult for your players, you could spawn 10 zombies every 20 seconds within the field, the exact spawn location would differ each time, and would not need to be in a compressed area like a mob spawner block.
+
+Spawner fields can spawn multiple types of mob at the same time, spawn based on chance, if they're in a specific world, spawn as baby (where the mob is Ageable), can prevent spawning if not over/in water or in a slime chunk or if a maximum number of mobs exist within a range.  You can also specidy minimum and maximum light levels for the mobs to spawn in.
+
+For a spawner block to work, a player must be within range, and that player MUST be in survival mode.  This prevents players from mob grinding in creative, or staff members triggering it while they're in spectator mode.  The field must also be enabled, and finally, MUST have the SPAWN flag enabled.  If the field is disabled or the SPAWN flag is set to false or not present, mobs will NOT spawn.
+
+In the example below, the field would spawn a zombie every 20 seconds while players are in range (and field/flag are active), with a 1 in 10 chance that the zombie is a baby, up to a maximum number of 16 zombies within 32 blocks of where the mob is spawning in.
+
+The same field can also spawn in zombie villagers, however, it is a 5/100 chance that they will spawn each 20 seconds, and only up to a maximum of 5 zombie villagers within 32 blocks of where the mob spawns.
+
+    spawn:
+      # Entity type to spawn
+      # Zombie, only spawns if light level 0-10, 100/100 chance, max of 20 in field
+      ZOMBIE:
+        # Number of mobs to spawn every 20 seconds (max of 10)
+        amount: 1
+        # Chance out of 100 for a mob to spawn (100 = always)
+        chance: 100
+        # Worlds that the mob can spawn in
+        worlds:
+          - world
+        # Minimum light level for spawning (measured at spawn point)
+        min_light: 0
+        # Maximum light level for spawning (measured at spawn point)
+        max_light: 10
+        # If requiring water, the mob will only spawn if above a water block (not flowing)
+        req_water: false
+        # If requiring a slime chunk, the mob will ONLY spawn if in a spawn chunk
+        req_slime_chunk: false
+        # Chance (0-100) that the mob will spawn as a baby IF it is an ageable mob (animals, zombies etc.)
+        baby_chance: 10
+        # The number of blocks to consider when checking for entities
+        max_distance: 16
+        # Sets a cap on the number of this type of entity that can spawn within 32 blocks
+        max_entities: 20
+      ZOMBIE_VILLAGER:
+        # Number of mobs to spawn every 20 seconds (max of 10)
+        amount: 1
+        # Chance out of 100 for a mob to spawn (100 = always)
+        chance: 5
+        # Worlds that the mob can spawn in
+        worlds:
+          - world
+        # Minimum light level for spawning (measured at spawn point)
+        min_light: 0
+        # Maximum light level for spawning (measured at spawn point)
+        max_light: 10
+        # If requiring water, the mob will only spawn if above a water block (not flowing)
+        req_water: false
+        # If requiring a slime chunk, the mob will ONLY spawn if in a spawn chunk
+        req_slime_chunk: false
+        # Chance (0-100) that the mob will spawn as a baby IF it is an ageable mob (animals, zombies etc.)
+        baby_chance: 0
+        # The number of blocks to consider when checking for entities
+        max_distance: 16
+        # Sets a cap on the number of this type of entity that can spawn within 32 blocks
+        max_entities: 5
+ 
