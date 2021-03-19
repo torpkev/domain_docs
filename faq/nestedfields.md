@@ -37,12 +37,14 @@ When a flag is applied, it gets all the Domain fields at your current location, 
 
 So if you have your field orders set up like:
 
-    PARENT FIELD
+#### Parent Field
+
     field_order: 2
     flags:
       PREVENT_SPAWN: true
     
-    CHILD FIELD
+#### Child Field
+
     field_order: 4
     flags: 
       PREVENT_SPAWN: false
