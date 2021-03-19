@@ -24,4 +24,4 @@ Best of all, Domain is being actively developed, so you're not stuck with an out
 
 View some of the frequently asked questions [here](https://torpkev.github.io/domain_docs/faq)
 
-If you have other questions, please reach out on Discord
+If you have other questions, please reach out on [Discord](https://discord.gg/crU8Gsr2TG)
