@@ -1,0 +1,1288 @@
+# flags is a list of flags and replacement name, lore, locked status and icons to use in the menus
+# & colors codes can be used in name and lore - if you use a new line in the lore (use a | character)
+# you will need to reapply the color code for the new line
+# Formatted as follows:
+# flags:
+#   <FLAG NAME>:
+#     name: <Easy to read name>
+#     lore: <Easy to read lore - use | for a new line>
+#     icon_on: <the material to use for an enabled flag>
+#     icon_off: <the material to use for a disabled flag>
+#     locked: <true/false>
+# Example:
+# flags:
+#   PREVENT_SPONGE_ABSORB:
+#     name: "&bPrevent Sponge Absorb"
+#     lore: "&fPrevents sponges from absorbing water|&fin the field"
+#     icon_on: SPONGE
+#     icon_off: BARRIER
+#     locked: true
+# In this example, the PREVENT_SPONGE_ABSORB flag would be a sponge if enabled and a barrier if disabled,
+# but is locked so the user cannot change it unless they have Domain Bypass mode enabled.
+flags:
+  DISPLAY_FAREWELL:
+    name: "&bDisplay Farewell"
+    lore: "&fDisplays a farewell message when|&fa player leaves the field"
+    icon_on: CRIMSON_SIGN
+    icon_off: CRIMSON_SIGN
+    locked: false
+  DISPLAY_WELCOME:
+    name: "&bDisplay Welcome"
+    lore: "&fDisplays a welcome message when|&fa player enters the field"
+    icon_on: WARPED_SIGN
+    icon_off: WARPED_SIGN
+    locked: false
+  DROP_ALL_ON_PVP_TELEPORT:
+    name: "&bDrop All on PVP Teleport"
+    lore: "&fCauses a player to drop all items|&fif they teleport after PVP"
+    icon_on: OAK_LOG
+    icon_off: OAK_LOG
+    locked: false
+  EFFECT_MINERS_HASTE_ALLOWED:
+    name: "&bMiners Haste"
+    lore: "&fEnables Miners Haste for an allower player to the field"
+    icon_on: GOLDEN_PICKAXE
+    icon_off: GOLDEN_PICKAXE
+    locked: false
+  EFFECT_LEVITATION_ALLOWED:
+    name: "&bLevitation"
+    lore: "&fEnables Levitation for an allower player to the field"
+    icon_on: AZURE_BLUET
+    icon_off: AZURE_BLUET
+    locked: false
+  EFFECT_NIGHT_VISION_ALLOWED:
+    name: "&bNight Vision"
+    lore: "&fEnables Night Vision for an allower player to the field"
+    icon_on: GOLDEN_CARROT
+    icon_off: GOLDEN_CARROT
+    locked: false
+  EFFECT_WATER_BREATHING_ALLOWED:
+    name: "&bWater Breathing"
+    lore: "&fEnables Water Breathing for an allower player to the field"
+    icon_on: PUFFERFISH_BUCKET
+    icon_off: PUFFERFISH_BUCKET
+    locked: false
+  EFFECT_HUNGER_NONALLOWED:
+    name: "&bHunger"
+    lore: "&fApplies Hunger potion effect to a|&fplayer not allowed to the field"
+    icon_on: ROTTEN_FLESH
+    icon_off: ROTTEN_FLESH
+    locked: false
+  EFFECT_WEAKNESS_NONALLOWED:
+    name: "&bWeakness"
+    lore: "&fApplies Weakness potion effect to a|&fplayer not allowed to the field"
+    icon_on: FERMENTED_SPIDER_EYE
+    icon_off: FERMENTED_SPIDER_EYE
+    locked: false
+  EFFECT_CONFUSION_NONALLOWED:
+    name: "&bConfusion"
+    lore: "&fApplies Confusion potion effect to a|&fplayer not allowed to the field"
+    icon_on: SUGAR_CANE
+    icon_off: SUGAR_CANE
+    locked: false
+  EFFECT_BLINDNESS_NONALLOWED:
+    name: "&bBlindness"
+    lore: "&fApplies Blindness potion effect to a|&fplayer not allowed to the field"
+    icon_on: INK_SAC
+    icon_off: INK_SAC
+    locked: false
+  EFFECT_SLOW_DIGGING_NONALLOWED:
+    name: "&bSlow Digging"
+    lore: "&fApplies Slow Digging potion effect to a|&fplayer not allowed to the field"
+    icon_on: WOODEN_SHOVEL
+    icon_off: WOODEN_SHOVEL
+    locked: false
+  EFFECT_WITHER_NONALLOWED:
+    name: "&bWither Effect"
+    lore: "&fApplies Wither potion effect to a|&fplayer not allowed to the field"
+    icon_on: WITHER_ROSE
+    icon_off: WITHER_ROSE
+    locked: false
+  ENABLE_FLY_FOR_ALLOWED:
+    name: "&bEnable Fly for Allowed"
+    lore: "&fEnables fly mode in the field for allowed players"
+    icon_on: FEATHER
+    icon_off: FEATHER
+    locked: false
+  EPIDEMIC_PREVENT_AFFLICT:
+    name: "&bPrevent Epidemic Affliction"
+    lore: "&fPrevents a player from being afflicted|&fby Epidemic"
+    icon_on: LIME_STAINED_GLASS_PANE
+    icon_off: BARRIER
+    locked: false
+  EPIDEMIC_PREVENT_SYMPTOMS:
+    name: "&bPrevent Epidemic Symptoms"
+    lore: "&fPrevents a player suffering from|&fsymptoms from Epidemic"
+    icon_on: LIME_STAINED_GLASS_PANE
+    icon_off: BARRIER
+    locked: false
+  FREEZE_ON_PVP_TELEPORT:
+    name: "&bFreeze on PVP Teleport"
+    lore: "&fFreezes the player if they attempt to|&fteleport after PVP"
+    icon_on: ICE
+    icon_off: ICE
+    locked: false
+  GLOW_NONALLOWED_PLAYER_ON_PVP:
+    name: "&bGlow Non-Allowed Player on PVP"
+    lore: "&fCauses a player to glow if they|&fattempt PVP while not allowed in|&fthe field"
+    icon_on: SPECTRAL_ARROW
+    icon_off: SPECTRAL_ARROW
+    locked: false
+  HARM_NONALLOWED_PLAYER:
+    name: "&bHarm Non-Allowed Player"
+    lore: "&fCauses a player not allowed in the field|&fto start taking damage"
+    icon_on: BLAZE_POWDER
+    icon_off: BLAZE_POWDER
+    locked: false
+  HEAL_ALLOWED_PLAYER:
+    name: "&bHeal Allowed Player"
+    lore: "&fHeals players allowed in the field"
+    icon_on: APPLE
+    icon_off: APPLE
+    locked: false
+  HEAL_ALL_PLAYERS:
+    name: "&bHeal Player"
+    lore: "&fHeals any player in the field"
+    icon_on: GOLDEN_APPLE
+    icon_off: GOLDEN_APPLE
+    locked: false
+  INSTANT_HEAL_ALLOWED_PLAYER:
+    name: "&bInstant Heal Allowed Player"
+    lore: "&fInstantly heals an allowed player to the field"
+    icon_on: ENCHANTED_GOLDEN_APPLE
+    icon_off: ENCHANTED_GOLDEN_APPLE
+    locked: false
+  PREVENT_BAZAAR_BUY_BY_NONALLOWED:
+    name: "&bPrevent Bazaar Shop Buy"
+    lore: "&fPrevents Non-Allowed players from|&fbuying from Bazaar shops"
+    icon_on: LIME_STAINED_GLASS_PANE
+    icon_off: BARRIER
+    locked: false
+  PREVENT_BAZAAR_CREATE_BY_NONALLOWED:
+    name: "&bPrevent Bazaar Shop Create"
+    lore: "&fPrevents Non-Allowed players from|&fcreating Bazaar shops"
+    icon_on: LIME_STAINED_GLASS_PANE
+    icon_off: BARRIER
+    locked: false
+  PREVENT_BAZAAR_REMOVE_BY_NONALLOWED:
+    name: "&bPrevent Bazaar Shop Remove"
+    lore: "&fPrevents a Non-Allowed player from|&fremoving Bazaar shops"
+    icon_on: LIME_STAINED_GLASS_PANE
+    icon_off: BARRIER
+    locked: false
+  PREVENT_BAZAAR_SELL_BY_NONALLOWED:
+    name: "&bPrevent Bazaar Shop Sell"
+    lore: "&fPrevents a Non-Allowed player from|&fselling to Bazaar shops"
+    icon_on: LIME_STAINED_GLASS_PANE
+    icon_off: BARRIER
+    locked: false
+  PREVENT_DOOR_ACCESS_BY_NONALLOWED:
+    name: "&bPrevent Door Access"
+    lore: "&fPrevents a Non-Allowed player from|&faccessing doors"
+    icon_on: CRIMSON_DOOR
+    icon_off: CRIMSON_DOOR
+    locked: false
+  PREVENT_GATE_ACCESS_BY_NONALLOWED:
+    name: "&bPrevent Gate Access"
+    lore: "&fPrevents a Non-Allowed player from|&faccessing gates"
+    icon_on: CRIMSON_FENCE_GATE
+    icon_off: CRIMSON_FENCE_GATE
+    locked: false
+  PREVENT_TRAPDOOR_ACCESS_BY_NONALLOWED:
+    name: "&bPrevent Gate Access"
+    lore: "&fPrevents a Non-Allowed player from|&faccessing trapdoors"
+    icon_on: CRIMSON_TRAPDOOR
+    icon_off: CRIMSON_TRAPDOOR
+    locked: false
+  PREVENT_BUTTON_ACCESS_BY_NONALLOWED:
+    name: "&bPrevent Button Access"
+    lore: "&fPrevents a Non-Allowed player from|&faccessing buttons"
+    icon_on: CRIMSON_BUTTON
+    icon_off: CRIMSON_BUTTON
+    locked: false
+  PREVENT_PRESSURE_PLATE_ACCESS_BY_NONALLOWED:
+    name: "&bPrevent Pressure-Plate Access"
+    lore: "&fPrevents a Non-Allowed player from|&faccessing pressure plates"
+    icon_on: CRIMSON_PRESSURE_PLATE
+    icon_off: CRIMSON_PRESSURE_PLATE
+    locked: false
+  PREVENT_INTERACT_LEVER_BY_NONALLOWED:
+    name: "&bPrevent Lever Access"
+    lore: "&fPrevents a Non-Allowed player from|&faccessing levers"
+    icon_on: LEVER
+    icon_off: LEVER
+    locked: false
+  PREVENT_ACCESS_BY_NONALLOWED:
+    name: "&bPrevent Access"
+    lore: "&fPrevents a Non-Allowed player from|&fentering a field.|&fRepeated attempts will cause them to return to spawn"
+    icon_on: BARRIER
+    icon_off: BARRIER
+    locked: false
+  PREVENT_ALLOWED_PLAYER_CONTACT_DAMAGE:
+    name: "&bPrevent Contact Damage"
+    lore: "&fPrevents players allowed to the field from taking|&fcontact damage (cactus, sweet berry bush etc.)"
+    icon_on: CACTUS
+    icon_off: CACTUS
+    locked: false
+  PREVENT_ALLOWED_PLAYER_DROWN:
+    name: "&bPrevent Drown"
+    lore: "&fPrevents players allowed to the field from taking|&fdrowning damage"
+    icon_on: HEART_OF_THE_SEA
+    icon_off: HEART_OF_THE_SEA
+    locked: false
+  PREVENT_ALLOWED_PLAYER_EXPLOSION_DAMAGE:
+    name: "&bPrevent Explosion Damage"
+    lore: "&fPrevents players allowed to the field from taking|&fexplosion damage"
+    icon_on: TNT
+    icon_off: TNT
+    locked: false
+  PREVENT_ALLOWED_PLAYER_FALL_DAMAGE:
+    name: "&bPrevent Fall Damage"
+    lore: "&fPrevents players allowed to the field from taking|&ffall damage"
+    icon_on: FEATHER
+    icon_off: FEATHER
+    locked: false
+  PREVENT_ALLOWED_PLAYER_FIRE_DAMAGE:
+    name: "&bPrevent Fire Damage"
+    lore: "&fPrevents players allowed to the field from taking|&ffire damage"
+    icon_on: CAMPFIRE
+    icon_off: CAMPFIRE
+    locked: false
+  PREVENT_ALLOWED_PLAYER_WITHER_DAMAGE:
+    name: "&bPrevent Wither Damage"
+    lore: "&fPrevents players allowed to the field from taking|&fwither damage"
+    icon_on: WITHER_SKELETON_SKULL
+    icon_off: WITHER_SKELETON_SKULL
+    locked: false
+  PREVENT_ANIMAL_DAMAGE_BY_ALL:
+    name: "&bPrevent Animal Damage by All"
+    lore: "&fPrevents any animal damage"
+    icon_on: ENDERMAN_SPAWN_EGG
+    icon_off: ENDERMAN_SPAWN_EGG
+    locked: false
+  PREVENT_ANIMAL_DAMAGE_BY_ALLOWED:
+    name: "&bPrevent Animal Damage by Allowed"
+    lore: "&fPrevents animal damage by Allowed players"
+    icon_on: CREEPER_SPAWN_EGG
+    icon_off: CREEPER_SPAWN_EGG
+    locked: false
+  PREVENT_ANIMAL_DAMAGE_BY_NONALLOWED:
+    name: "&bPrevent Animal Damage by Non-Allowed"
+    lore: "&fPrevents animal damage by Non-Allowed players"
+    icon_on: MOOSHROOM_SPAWN_EGG
+    icon_off: MOOSHROOM_SPAWN_EGG
+    locked: false
+  PREVENT_ANIMAL_DAMAGE_BY_NONPLAYER:
+    name: "&bPrevent Animal Damage by Non-Player"
+    lore: "&fPrevents Non-Players from causing animal damage"
+    icon_on: OCELOT_SPAWN_EGG
+    icon_off: OCELOT_SPAWN_EGG
+    locked: false
+  PREVENT_ARROW_INTERACT:
+    name: "&bPrevent Arrow Interaction"
+    lore: "&fPrevents arrows from interacting with|&fbuttons and pressure plates"
+    icon_on: ARROW
+    icon_off: ARROW
+    locked: false
+  PREVENT_BLOCK_BURN:
+    name: "&bPrevent Block Burn"
+    lore: "&fPrevents blocks from burning away"
+    icon_on: SOUL_CAMPFIRE
+    icon_off: SOUL_CAMPFIRE
+    locked: false
+  PREVENT_BREAK:
+    name: "&bPrevent Break"
+    lore: "&fPrevents blocks being broken by Non-Allowed players"
+    icon_on: NETHERITE_PICKAXE
+    icon_off: NETHERITE_PICKAXE
+    locked: false
+  PREVENT_BREAK_BOAT_BY_NONALLOWED:
+    name: "&bPrevent Boat Breaking by Non-Allowed"
+    lore: "&fPrevents Non-Allowed players from breaking boats"
+    icon_on: ACACIA_BOAT
+    icon_off: ACACIA_BOAT
+    locked: false
+  PREVENT_BREAK_MINECART_BY_NONALLOWED:
+    name: "&bPrevent Minecart Breaking by Non-Allowed"
+    lore: "&fPrevents Non-Allowed players from breaking minecarts"
+    icon_on: MINECART
+    icon_off: MINECART
+    locked: false
+  PREVENT_BREAK_PAINTING_BY_NONALLOWED:
+    name: "&bPrevent Break Painting"
+    lore: "&fPrevents paintings being broken by Non-Allowed players"
+    icon_on: PAINTING
+    icon_off: PAINTING
+    locked: false
+  PREVENT_BREEDING:
+    name: "&bPrevent Breeding"
+    lore: "&fPrevents mobs from breeding"
+    icon_on: LILY_PAD
+    icon_off: LILY_PAD
+    locked: false
+  PREVENT_BUCKET_FILL_BY_NONALLOWED:
+    name: "&bPrevent Bucket-Fill"
+    lore: "&fPrevents a Non-Allowed player from filling a bucket"
+    icon_on: BUCKET
+    icon_off: BUCKET
+    locked: false
+  PREVENT_BUILD:
+    name: "&bPrevent Build"
+    lore: "&fPrevents Non-Allowed players from building"
+    icon_on: RED_NETHER_BRICKS
+    icon_off: RED_NETHER_BRICKS
+    locked: false
+  PREVENT_BUILD_EXCEPT_DOMAINBLOCK:
+    name: "&bPrevent Build Except Domain Block"
+    lore: "&fPrevents Non-Allowed players from building|But allows them to place Domain fields"
+    icon_on: DIAMOND_BLOCK
+    icon_off: DIAMOND_BLOCK
+    locked: false
+  PREVENT_BUILD_IRON_GOLEM:
+    name: "&bPrevent Iron Golem"
+    lore: "&fPrevents Iron Golems from being built"
+    icon_on: IRON_BLOCK
+    icon_off: IRON_BLOCK
+    locked: false
+  PREVENT_BUILD_SNOWMAN:
+    name: "&bPrevent Snowman"
+    lore: "&fPrevent Snowmenfrom being built"
+    icon_on: SNOW_BLOCK
+    icon_off: SNOW_BLOCK
+    locked: false
+  PREVENT_CHORUSFRUIT_TO:
+    name: "&bPrevent Chorus Fruit To"
+    lore: "&fPrevents Chorus Fruit teleporting to|&fthe field by Non-Allowed players"
+    icon_on: CHORUS_FRUIT
+    icon_off: CHORUS_FRUIT
+    locked: false
+  PREVENT_COMMAND_CUSTOM1_BY_NONALLOWED:
+    name: "&bPrevent Custom Commands 1"
+    lore: "&fPrevents certain commands being run|&fin the field by Non-Allowed players"
+    icon_on: COMMAND_BLOCK
+    icon_off: COMMAND_BLOCK
+    locked: false
+  PREVENT_COMMAND_CUSTOM2_BY_NONALLOWED:
+    name: "&bPrevent Custom Commands 2"
+    lore: "&fPrevents certain commands being run in|&f the field by Non-Allowed players"
+    icon_on: REPEATING_COMMAND_BLOCK
+    icon_off: REPEATING_COMMAND_BLOCK
+    locked: false
+  PREVENT_COMMAND_CUSTOM3_BY_NONALLOWED:
+    name: "&bPrevent Custom Commands 3"
+    lore: "&fPrevents certain commands being run in|&f the field by Non-Allowed players"
+    icon_on: CHAIN_COMMAND_BLOCK
+    icon_off: CHAIN_COMMAND_BLOCK
+    locked: false
+  PREVENT_COMMAND_CUSTOM4_BY_NONALLOWED:
+    name: "&bPrevent Custom Commands 4"
+    lore: "&fPrevents certain commands being run in|&f the field by Non-Allowed players"
+    icon_on: COMMAND_BLOCK
+    icon_off: COMMAND_BLOCK
+    locked: false
+  PREVENT_COMMAND_HOME_BY_NONALLOWED:
+    name: "&bPrevent Home Commands"
+    lore: "&fPrevents Home commands being run in|&f the field by Non-Allowed players"
+    icon_on: RESPAWN_ANCHOR
+    icon_off: RESPAWN_ANCHOR
+    locked: false
+  PREVENT_COMMAND_TELEPORT_BY_NONALLOWED:
+    name: "&bPrevent Teleport Commands"
+    lore: "&fPrevents Teleport commands being run in|&f the field by Non-Allowed players"
+    icon_on: SEA_LANTERN
+    icon_off: SEA_LANTERN
+    locked: false
+  PREVENT_CROP_DAMAGE_BY_NONALLOWED:
+    name: "&bPrevent Crop Damage"
+    lore: "&fPrevents crop damage by Non-Allowed players"
+    icon_on: FARMLAND
+    icon_off: FARMLAND
+    locked: false
+  PREVENT_CROP_DAMAGE_BY_NONPLAYER:
+    name: "&bPrevent Crop Damage by Mob"
+    lore: "&fPrevents Non-Players from causing crop damage"
+    icon_on: FARMLAND
+    icon_off: FARMLAND
+    locked: false
+  PREVENT_DROP_ITEM_BY_NONALLOWED:
+    name: "&bPrevent Drop Item"
+    lore: "&fPrevents Non-Allowed players from dropping items|&fin the field"
+    icon_on: DROPPER
+    icon_off: DROPPER
+    locked: false
+  PREVENT_ELYTRA_GLIDING:
+    name: "&bPrevent Elytra Gliding"
+    lore: "&fPrevents Elytra gliding in the field"
+    icon_on: ELYTRA
+    icon_off: ELYTRA
+    locked: false
+  PREVENT_END_PORTAL_BY_NONALLOWED:
+    name: "&bPrevent End Portal Use"
+    lore: "&fPrevents Non-Allowed players from|&fusing an End Portal|&fin the field"
+    icon_on: END_PORTAL_FRAME
+    icon_off: END_PORTAL_FRAME
+    locked: false
+  PREVENT_ENDERPEARL_TO:
+    name: "&bPrevent Enderpearl To"
+    lore: "&fPrevents Non-Allowed players from|&fEnderpearl teleporting to the field"
+    icon_on: ENDER_PEARL
+    icon_off: ENDER_PEARL
+    locked: false
+  PREVENT_EXIT_BY_NONALLOWED:
+    name: "&bPrevents Exit by Non-Allowed"
+    lore: "&fPrevents Non-Allowed players from|&fleaving a Domain field"
+    icon_on: END_CRYSTAL
+    icon_off: END_CRYSTAL
+    locked: false
+  PREVENT_EXPLOSION_DAMAGE:
+    name: "&bPrevent Explosion Damage"
+    lore: "&fPrevents blocks in the field from|&ftaking explosion damage"
+    icon_on: TNT
+    icon_off: TNT
+    locked: false
+  PREVENT_FIRE_IGNITE:
+    name: "&bPrevent Fire Ignite"
+    lore: "&fPrevents fires from being ignited"
+    icon_on: FLINT_AND_STEEL
+    icon_off: FLINT_AND_STEEL
+    locked: false
+  PREVENT_FIRE_SPREAD:
+    name: "&bPrevent Fire Spread"
+    lore: "&fPrevents fires from spreading in the field"
+    icon_on: CAMPFIRE
+    icon_off: CAMPFIRE
+    locked: false
+  PREVENT_FIREWORK_LAUNCH_BY_NONALLOWED:
+    name: "&bPrevent Firework Launch"
+    lore: "&fPrevents Non-Allowed players from launching|&ffireworks in the field"
+    icon_on: FIREWORK_ROCKET
+    icon_off: FIREWORK_ROCKET
+    locked: false
+  PREVENT_GROW_BAMBOO:
+    name: "&bPrevent Bamboo Growing"
+    lore: "&fPrevents bamboo from growing in the field"
+    icon_on: BAMBOO
+    icon_off: BAMBOO
+    locked: false
+  PREVENT_GROW_BEETROOTS:
+    name: "&bPrevent Beetroot Growing"
+    lore: "&fPrevents beetroots from growing in the field"
+    icon_on: BEETROOT
+    icon_off: BEETROOT
+    locked: false
+  PREVENT_GROW_CACTUS:
+    name: "&bPrevent Cactus Growing"
+    lore: "&fPrevents cactus from growing in the field"
+    icon_on: CACTUS
+    icon_off: CACTUS
+    locked: false
+  PREVENT_GROW_CARROTS:
+    name: "&bPrevent Carrot Growing"
+    lore: "&fPrevents carrots from growing in the field"
+    icon_on: CARROT
+    icon_off: CARROT
+    locked: false
+  PREVENT_GROW_CHORUS_FLOWER:
+    name: "&bPrevents Chorus Flower Growing"
+    lore: "&fPrevents Chorus Flowers from|&fgrowing in the field|&fDoes not stop the plant, just the flower"
+    icon_on: CHORUS_FLOWER
+    icon_off: CHORUS_FLOWER
+    locked: false
+  PREVENT_GROW_CHORUS_PLANT:
+    name: "&bPrevents Chorus Plant Growing"
+    lore: "&fPrevents Chorus Plant from|&fgrowing in the field|&fDoes not stop the flower, just the plant"
+    icon_on: CHORUS_PLANT
+    icon_off: CHORUS_PLANT
+    locked: false
+  PREVENT_GROW_KELP:
+    name: "&bPrevents Kelp Growing"
+    lore: "&fPrevents Kelp from|&fgrowing in the field"
+    icon_on: KELP
+    icon_off: KELP
+    locked: false
+  PREVENT_GROW_COCOA:
+    name: "&bPrevent Cocoa Growing"
+    lore: "&fPrevents Cocoa from growing in the field"
+    icon_on: COCOA_BEANS
+    icon_off: COCOA_BEANS
+    locked: false
+  PREVENT_GROW_MELON:
+    name: "&bPrevent Melon Growing"
+    lore: "&fPrevents Melons from growing in the field"
+    icon_on: MELON_SEEDS
+    icon_off: MELON_SEEDS
+    locked: false
+  PREVENT_GROW_NETHER_WART:
+    name: "&bPrevent Nether Wart Growing"
+    lore: "&fPrevents Nether Wart from growing in the field"
+    icon_on: NETHER_WART
+    icon_off: NETHER_WART
+    locked: false
+  PREVENT_GROW_POTATOES:
+    name: "&bPrevent Potato Growing"
+    lore: "&fPrevents potatoes from growing in the field"
+    icon_on: POTATO
+    icon_off: POTATO
+    locked: false
+  PREVENT_GROW_PUMPKIN:
+    name: "&bPrevent Pumpkin Growing"
+    lore: "&fPrevents pumpkins from growing in the field"
+    icon_on: PUMPKIN
+    icon_off: PUMPKIN
+    locked: false
+  PREVENT_GROW_SUGAR_CANE:
+    name: "&bPrevent Sugar Cane Growing"
+    lore: "&fPrevents sugar cane from growing in the field"
+    icon_on: SUGAR_CANE
+    icon_off: SUGAR_CANE
+    locked: false
+  PREVENT_GROW_SWEET_BERRY_BUSH:
+    name: "&bPrevent Sweet Berry Bush Growing"
+    lore: "&fPrevents Sweet Berry bushes from growing in the field"
+    icon_on: SWEET_BERRIES
+    icon_off: SWEET_BERRIES
+    locked: false
+  PREVENT_GROW_TURTLE_EGG:
+    name: "&bPrevent Turtle Egg Growing"
+    lore: "&fPrevents Turtle Eggs from growing in the field"
+    icon_on: TURTLE_EGG
+    icon_off: TURTLE_EGG
+    locked: false
+  PREVENT_GROW_VINE:
+    name: "&bPrevent Vine Growing"
+    lore: "&fPrevents vines from growing in the field"
+    icon_on: VINE
+    icon_off: VINE
+    locked: false
+  PREVENT_HEAL_ZOMBIE_VILLAGER_BY_NONALLOWED:
+    name: "&bPrevent Heal Zombie Villager by Non-Allowed"
+    lore: "&fPrevents Non-Allowed players from healing|&fzombie villagers in the field"
+    icon_on: ZOMBIE_VILLAGER_SPAWN_EGG
+    icon_off: ZOMBIE_VILLAGER_SPAWN_EGG
+    locked: false
+  PREVENT_GROW_WHEAT:
+    name: "&bPrevent Wheat Growing"
+    lore: "&fPrevents wheat from growing in the field"
+    icon_on: WHEAT
+    icon_off: WHEAT
+    locked: false
+  PREVENT_INTERACT:
+    name: "&bPrevent Interact"
+    lore: "&fPrevents interaction with chests,|&fshulker boxes, furnaces,|&fdroppers, buttons,|&fdoors, gates, switches, pressure plates, beds etc."
+    icon_on: BARRIER
+    icon_off: BARRIER
+    locked: false
+  PREVENT_INTERACT_ANVIL_BY_NONALLOWED:
+    name: "&bPrevent Anvil Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fanvils in the field"
+    icon_on: ANVIL
+    icon_off: ANVIL
+    locked: false
+  PREVENT_INTERACT_ARMOR_STAND_BY_NONALLOWED:
+    name: "&bPrevent Armor Stand Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&farmor stands in the field"
+    icon_on: ARMOR_STAND
+    icon_off: ARMOR_STAND
+    locked: false
+  PREVENT_INTERACT_BARREL_BY_NONALLOWED:
+    name: "&bPrevent Barrel Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fbarrels in the field"
+    icon_on: BARREL
+    icon_off: BARREL
+    locked: false
+  PREVENT_INTERACT_BED_BY_NONALLOWED:
+    name: "&bPrevent Bed Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fbeds in the field"
+    icon_on: WHITE_BED
+    icon_off: WHITE_BED
+    locked: false
+  PREVENT_INTERACT_BEEHIVE_BY_NONALLOWED:
+    name: "&bPrevent Bee Hive Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fbee hives in the field"
+    icon_on: BEEHIVE
+    icon_off: BEEHIVE
+    locked: false
+  PREVENT_INTERACT_BEENEST_BY_NONALLOWED:
+    name: "&bPrevent Bee Nest Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fbee nests in the field"
+    icon_on: BEE_NEST
+    icon_off: BEE_NEST
+    locked: false
+  PREVENT_INTERACT_BELL_BY_NONALLOWED:
+    name: "&bPrevent Bell Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fbells in the field"
+    icon_on: BELL
+    icon_off: BELL
+    locked: false
+  PREVENT_INTERACT_BLAST_FURNACE_BY_NONALLOWED:
+    name: "&bPrevent Blast Furnace Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fblast furnaces in the field"
+    icon_on: BLAST_FURNACE
+    icon_off: BLAST_FURNACE
+    locked: false
+  PREVENT_INTERACT_BREWING_STAND_BY_NONALLOWED:
+    name: "&bPrevent Brewing Stand Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fbrewing stands in the field"
+    icon_on: BREWING_STAND
+    icon_off: BREWING_STAND
+    locked: false
+  PREVENT_INTERACT_CAKE_BY_NONALLOWED:
+    name: "&bPrevent Cake Interaction"
+    lore: "&fPrevents Non-Allowed players from |interacting/eating cakes|&fin the field"
+    icon_on: CAKE
+    icon_off: CAKE
+    locked: false
+  PREVENT_INTERACT_CAMPFIRE_BY_NONALLOWED:
+    name: "&bPrevent Campfire Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fcampfires in the field"
+    icon_on: CAMPFIRE
+    icon_off: CAMPFIRE
+    locked: false
+  PREVENT_INTERACT_CARTOGRAPHY_TABLE_BY_NONALLOWED:
+    name: "&bPrevent Cartography Table Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fcartography tables in the field"
+    icon_on: CARTOGRAPHY_TABLE
+    icon_off: CARTOGRAPHY_TABLE
+    locked: false
+  PREVENT_INTERACT_CHEST_BY_NONALLOWED:
+    name: "&bPrevent Chest Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fchests in the field"
+    icon_on: CHEST
+    icon_off: CHEST
+    locked: false
+  PREVENT_INTERACT_COMPOSTER_BY_NONALLOWED:
+    name: "&bPrevent Composter Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fcomposters in the field"
+    icon_on: COMPOSTER
+    icon_off: COMPOSTER
+    locked: false
+  PREVENT_INTERACT_CRAFTING_TABLE_BY_NONALLOWED:
+    name: "&bPrevent Crafting Table Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fcrafting tables in the field"
+    icon_on: CRAFTING_TABLE
+    icon_off: CRAFTING_TABLE
+    locked: false
+  PREVENT_INTERACT_DISPENSER_BY_NONALLOWED:
+    name: "&bPrevent Dispenser Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fdispensers in the field"
+    icon_on: DISPENSER
+    icon_off: DISPENSER
+    locked: false
+  PREVENT_INTERACT_DROPPER_BY_NONALLOWED:
+    name: "&bPrevent Dropper Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fdroppers in the field"
+    icon_on: DROPPER
+    icon_off: DROPPER
+    locked: false
+  PREVENT_INTERACT_ENCHANTING_TABLE_BY_NONALLOWED:
+    name: "&bPrevent Enchanting Table Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fenchanting tables in the field"
+    icon_on: ENCHANTING_TABLE
+    icon_off: ENCHANTING_TABLE
+    locked: false
+  PREVENT_INTERACT_ENDERCHEST_BY_NONALLOWED:
+    name: "&bPrevent EnderChest Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fenderchests in the field"
+    icon_on: ENDER_CHEST
+    icon_off: ENDER_CHEST
+    locked: false
+  PREVENT_INTERACT_FLOWERPOT_BY_NONALLOWED:
+    name: "&bPrevent Flowerpot Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fflower pots in the field"
+    icon_on: FLOWER_POT
+    icon_off: FLOWER_POT
+    locked: false
+  PREVENT_INTERACT_FURNACE_BY_NONALLOWED:
+    name: "&bPrevent Furnace Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&ffurnaces in the field"
+    icon_on: FURNACE
+    icon_off: FURNACE
+    locked: false
+  PREVENT_INTERACT_GRINDSTONE_BY_NONALLOWED:
+    name: "&bPrevent Grindstone Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fanvils in the field"
+    icon_on: GRINDSTONE
+    icon_off: GRINDSTONE
+    locked: false
+  PREVENT_INTERACT_HOPPER_BY_NONALLOWED:
+    name: "&bPrevent Hopper Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fhoppers in the field"
+    icon_on: HOPPER
+    icon_off: HOPPER
+    locked: false
+  PREVENT_INTERACT_ITEM_FRAME_BY_NONALLOWED:
+    name: "&bPrevent Item Frame Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fitem frames in the field"
+    icon_on: ITEM_FRAME
+    icon_off: ITEM_FRAME
+    locked: false
+  PREVENT_INTERACT_JUKEBOX_BY_NONALLOWED:
+    name: "&bPrevent Jukebox Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fjukeboxes in the field"
+    icon_on: JUKEBOX
+    icon_off: JUKEBOX
+    locked: false
+  PREVENT_INTERACT_LECTERN_BY_NONALLOWED:
+    name: "&bPrevent Lectern Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&flecterns in the field"
+    icon_on: LECTERN
+    icon_off: LECTERN
+    locked: false
+  PREVENT_INTERACT_LODESTONE_BY_NONALLOWED:
+    name: "&bPrevent Lodestone Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&flodestones in the field"
+    icon_on: LODESTONE
+    icon_off: LODESTONE
+    locked: false
+  PREVENT_INTERACT_LOOM_BY_NONALLOWED:
+    name: "&bPrevent Loom Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&flooms in the field"
+    icon_on: LOOM
+    icon_off: LOOM
+    locked: false
+  PREVENT_INTERACT_REDSTONE_REPEATER_BY_NONALLOWED:
+    name: "&bPrevent Redstone Repeater Interaction "
+    lore: "&fPrevents redstone repeaters|being broken by Non-Allowed players"
+    icon_on: REPEATER
+    icon_off: REPEATER
+    locked: false
+  PREVENT_INTERACT_SHULKERBOX_BY_NONALLOWED:
+    name: "&bPrevent Shulker Box Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fshulker boxes in the field"
+    icon_on: SHULKER_BOX
+    icon_off: SHULKER_BOX
+    locked: false
+  PREVENT_INTERACT_SMITHINGTABLE_BY_NONALLOWED:
+    name: "&bPrevent Smithing-Table Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fsmithing tables in the field"
+    icon_on: SMITHING_TABLE
+    icon_off: SMITHING_TABLE
+    locked: false
+  PREVENT_INTERACT_SMOKER_BY_NONALLOWED:
+    name: "&bPrevent Smoker Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fsmokers in the field"
+    icon_on: SMOKER
+    icon_off: SMOKER
+    locked: false
+  PREVENT_INTERACT_STONECUTTER_BY_NONALLOWED:
+    name: "&bPrevent Stonecutter Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fstonecutters in the field"
+    icon_on: STONECUTTER
+    icon_off: STONECUTTER
+    locked: false
+  PREVENT_INTERACT_SWEET_BERRY_BUSH_BY_NONALLOWED:
+    name: "&bPrevent Sweet Berry Bush Interaction"
+    lore: "&fPrevents Non-Allowed players from interacting with|&fsweet berry bushes in the field"
+    icon_on: SWEET_BERRIES
+    icon_off: SWEET_BERRIES
+    locked: false
+  PREVENT_ITEM_FRAME_ACCESS_BY_NONALLOWED:
+    name: "&bPrevent Item Frame Access"
+    lore: "&fPrevents Non-Allowed players from accessing|&fitem frames in the field"
+    icon_on: ITEM_FRAME
+    icon_off: ITEM_FRAME
+    locked: false
+  PREVENT_ITEM_PICKUP_BY_NONALLOWED:
+    name: "&bPrevent Item Pickup"
+    lore: "&fPrevents Non-Allowed players from picking up items in the field"
+    icon_on: HOPPEER
+    icon_off: HOPPEER
+    locked: false
+  PREVENT_ITEM_PICKUP_BY_VILLAGER:
+    name: "&bPrevent Villager Item Pickup"
+    lore: "&fPrevents Villagers from picking up items in the field"
+    icon_on: HOPPEER
+    icon_off: HOPPEER
+    locked: false
+  PREVENT_LAVA_FLOW:
+    name: "&bPrevent Lava Flow"
+    lore: "&fPrevents lava flow in the field"
+    icon_on: LAVA_BUCKET
+    icon_off: LAVA_BUCKET
+    locked: false
+  PREVENT_LAVA_FLOW_TO:
+    name: "&bPrevent Lava Flow Into Field"
+    lore: "&fPrevents lava from flowing into the field"
+    icon_on: LAVA_BUCKET
+    icon_off: LAVA_BUCKET
+    locked: false
+  PREVENT_LAVA_PLACE:
+    name: "&bPrevent Lava Place"
+    lore: "&fPrevents Non-Allowed players from placing lava in the field"
+    icon_on: LAVA_BUCKET
+    icon_off: LAVA_BUCKET
+    locked: false
+  PREVENT_LEAD_BY_NONALLOWED:
+    name: "&bPrevent Non-Allowed from using Leads"
+    lore: "&fPrevents Non-allowed players from using Leads"
+    icon_on: LEAD
+    icon_off: LEAD
+    locked: false
+  PREVENT_LINGERINGPOTION_EFFECT:
+    name: "&bPrevent Lingering Potion Effect"
+    lore: "&fPrevents lingering potion effects in the field"
+    icon_on: LINGERING_POTION
+    icon_off: LINGERING_POTION
+    locked: false
+  PREVENT_MAGIC:
+    name: "&bPrevent Magic"
+    lore: "&fPrevents Magic in the field"
+    icon_on: TIPPED_ARROW
+    icon_off: TIPPED_ARROW
+    locked: false
+  PREVENT_MOB_CONTACT_DAMAGE:
+    name: "&bPrevent Mob Contact Damage"
+    lore: "&fPrevents Non-Players from taking contact damage"
+    icon_on: ZOMBIE_HEAD
+    icon_off: ZOMBIE_HEAD
+    locked: false
+  PREVENT_MOB_DROWN:
+    name: "&bPrevent Mob Drown"
+    lore: "&fPrevents Non-Players from drowning"
+    icon_on: WATER_BUCKET
+    icon_off: WATER_BUCKET
+    locked: false
+  PREVENT_MOB_EXPLOSION_DAMAGE:
+    name: "&bPrevent Mob Explosion Damage"
+    lore: "&fPrevents Non-Players from taking explosion damage"
+    icon_on: CREEPER_HEAD
+    icon_off: CREEPER_HEAD
+    locked: false
+  PREVENT_MOB_FALL_DAMAGE:
+    name: "&bPrevent Mob Fall Damage"
+    lore: "&fPrevents Non-Players from taking fall damage"
+    icon_on: FEATHER
+    icon_off: FEATHER
+    locked: false
+  PREVENT_MOB_FIRE_DAMAGE:
+    name: "&bPrevent Mob Fire Damage"
+    lore: "&fPrevents Non-Players from taking fire damage"
+    icon_on: CAMPFIRE
+    icon_off: CAMPFIRE
+    locked: false
+  PREVENT_MOB_WITHER_DAMAGE:
+    name: "&bPrevent Mob Wither Damage"
+    lore: "&fPrevents Non-Players from taking Wither damage"
+    icon_on: WITHER_SKELETON_SKULL
+    icon_off: WITHER_SKELETON_SKULL
+    locked: false
+  PREVENT_MONSTER_DAMAGE_BY_ALL:
+    name: "&bPrevent Monster Damage by All"
+    lore: "&fPrevent monsters from taking damage from anyone"
+    icon_on: SKELETON_SKULL
+    icon_off: SKELETON_SKULL
+    locked: false
+  PREVENT_MONSTER_DAMAGE_BY_ALLOWED:
+    name: "&bPrevent Monster Damage by Allowed"
+    lore: "&fPrevents Allowed players from damaging monsters"
+    icon_on: SKELETON_SKULL
+    icon_off: SKELETON_SKULL
+    locked: false
+  PREVENT_MONSTER_DAMAGE_BY_NONALLOWED:
+    name: "&bPrevent Monster Damage by Non-Allowed"
+    lore: "&fPrevents Non-Allowed players from damaging monsters"
+    icon_on: SKELETON_SKULL
+    icon_off: SKELETON_SKULL
+    locked: false
+  PREVENT_MONSTER_DAMAGE_BY_NONPLAYER:
+    name: "&bPrevent Monster Damage by Non-Player"
+    lore: "&fPrevents Non-Players from damaging monsters"
+    icon_on: SKELETON_SKULL
+    icon_off: SKELETON_SKULL
+    locked: false
+  PREVENT_MOUNT_ANIMAL_BY_NONALLOWED:
+    name: "&bPrevent Non-Allowed from Mounting Animals"
+    lore: "&fPrevents Non-allowed players from mounting animals"
+    icon_on: SADDLE
+    icon_off: SADDLE
+    locked: false
+  PREVENT_NETHER_PORTAL_BY_NONALLOWED:
+    name: "&bPrevent Nether Portal Access"
+    lore: "&fPrevents Non-Allowed players from using Nether Portals"
+    icon_on: CRYING_OBSIDIAN
+    icon_off: CRYING_OBSIDIAN
+    locked: false
+  PREVENT_PISTON_MOVE_INTO_FIELD:
+    name: "&bPrevent Piston Move Into Field"
+    lore: "&fPrevents a piston from moving a block into the field"
+    icon_on: PISTON
+    icon_off: PISTON
+    locked: false
+  PREVENT_PISTON_MOVE_OUT_FIELD:
+    name: "&bPrevent Piston Move Out of Field"
+    lore: "&fPrevents a piston from moving a block out of the field"
+    icon_on: STICKY_PISTON
+    icon_off: STICKY_PISTON
+    locked: false
+  PREVENT_PLACE_BOAT_BY_NONALLOWED:
+    name: "&bPrevent Boat Place"
+    lore: "&fPrevents Non-Allowed players from placing boats"
+    icon_on: DARK_OAK_BOAT
+    icon_off: DARK_OAK_BOAT
+    locked: false
+  PREVENT_PLACE_MINECART_BY_NONALLOWED:
+    name: "&bPrevent Minecart Place"
+    lore: "&fPrevents Non-Allowed players from placing minecarts"
+    icon_on: MINECART
+    icon_off: MINECART
+    locked: false
+  PREVENT_PLACE_PAINTING_BY_NONALLOWED:
+    name: "&bPrevent Painting Place"
+    lore: "&fPrevents Non-Allowed players from placing paintings"
+    icon_on: PAINTING
+    icon_off: PAINTING
+    locked: false
+  PREVENT_PLAYER_ATTACK_DAMAGE_BY_CREATURE:
+    name: "&bPrevent Attack Damage"
+    lore: "&fPrevent a player from taking attack damage from any creature"
+    icon_on: NETHERITE_CHESTPLATE
+    icon_off: NETHERITE_CHESTPLATE
+    locked: false
+  PREVENT_PLAYER_CONTACT_DAMAGE:
+    name: "&bPrevent Contact Damage"
+    lore: "&fPrevents a player from taking contact damage"
+    icon_on: DIAMOND_CHESTPLATE
+    icon_off: DIAMOND_CHESTPLATE
+    locked: false
+  PREVENT_PLAYER_DROWN:
+    name: "&bPrevent Player Drown"
+    lore: "&fPrevents a player from taking drowning damage"
+    icon_on: WATER_BUCKET
+    icon_off: WATER_BUCKET
+    locked: false
+  PREVENT_PLAYER_EXPLOSION_DAMAGE:
+    name: "&bPrevent Player Explosion Damage"
+    lore: "&fPrevents a player from taking explosion damage"
+    icon_on: TNT
+    icon_off: TNT
+    locked: false
+  PREVENT_PLAYER_FALL_DAMAGE:
+    name: "&bPrevent Player Fall Damage"
+    lore: "&fPrevents a player from taking fall damage"
+    icon_on: FEATHER
+    icon_off: FEATHER
+    locked: false
+  PREVENT_PLAYER_FIRE_DAMAGE:
+    name: "&bPrevent Player Fire Damage"
+    lore: "&fPrevents a player from taking fire damage"
+    icon_on: CAMPFIRE
+    icon_off: CAMPFIRE
+    locked: false
+  PREVENT_PLAYER_WITHER_DAMAGE:
+    name: "&bPrevent Player Wither Damage"
+    lore: "&fPrevents a player from taking wither damage"
+    icon_on: WITHER_SKELETON_SKULL
+    icon_off: WITHER_SKELETON_SKULL
+    locked: false
+  PREVENT_PROJECTILE_ITEM_FRAME:
+    name: "&bPrevent Projectile/Item Frame Interaction"
+    lore: "&fPrevents projectiles from damaging item frames"
+    icon_on: ITEM_FRAME
+    icon_off: ITEM_FRAME
+    locked: false
+  PREVENT_PROJECTILE_PAINTING:
+    name: "&bPrevent Projectile/Painting Interaction"
+    lore: "&fPrevents projectiles from damaging paintings"
+    icon_on: PAINTING
+    icon_off: PAINTING
+    locked: false
+  PREVENT_PVP:
+    name: "&bPrevent PVP"
+    lore: "&fPrevent a player from taking damage from|&fanother player (including projectiles)"
+    icon_on: DIAMOND_SWORD
+    icon_off: DIAMOND_SWORD
+    locked: false
+  PREVENT_PVP_BY_NONALLOWED:
+    name: "&bPrevent PVP By Non-Allowed"
+    lore: "&fPrevent a player from taking damage from|&fanother player (including|&fprojectiles) if the attacker is not allowed|&fin the field"
+    icon_on: DIAMOND_SWORD
+    icon_off: DIAMOND_SWORD
+    locked: false
+  PREVENT_PVP_TELEPORT_FROM:
+    name: "&bPrevent PVP Teleport From"
+    lore: "&fPrevents a player from teleporting from a field if they|&fengaged in PVP"
+    icon_on: DIAMOND_SWORD
+    icon_off: DIAMOND_SWORD
+    locked: false
+  PREVENT_PVP_TELEPORT_TO:
+    name: "&bPrevent PVP Teleport To"
+    lore: "&fPrevents a player from teleporting to a field if|&fthey have engaged in PVP"
+    icon_on: DIAMOND_SWORD
+    icon_off: DIAMOND_SWORD
+    locked: false
+  PREVENT_SADDLE_BY_NONALLOWED:
+    name: "&bPrevent Saddle by Non-Allowed"
+    lore: "&fPrevents Non-Allowed players from|&fusing a saddle"
+    icon_on: SADDLE
+    icon_off: SADDLE
+    locked: false
+  PREVENT_SHEAR_BY_NONALLOWED:
+    name: "&bPrevent Shearing"
+    lore: "&fPrevents Non-Allowed players from|&fshearing animals"
+    icon_on: SHEARS
+    icon_off: SHEARS
+    locked: false
+  PREVENT_SHEEP_DYE:
+    name: "&bPrevent Sheep Dye"
+    lore: "&fPrevents sheep from being dyed"
+    icon_on: RED_DYE
+    icon_off: RED_DYE
+    locked: false
+  PREVENT_SHEEP_REGROW_WOOL:
+    name: "&bPrevent Wool Growing"
+    lore: "&fPrevents a sheep from regrowing its wool"
+    icon_on: WHITE_WOOL
+    icon_off: WHITE_WOOL
+    locked: false
+  PREVENT_SPAWN:
+    name: "&bPrevent Spawn"
+    lore: "&fPrevents mob spawning"
+    icon_on: SPAWNER
+    icon_off: SPAWNER
+    locked: false
+  PREVENT_SPAWN_FISH_FROM_BUCKET_BY_NONALLOWED:
+    name: "&bPrevent Spawn Fish by Non-Allowed"
+    lore: "&fPrevents fish buckets being used|&fby non-allowed players"
+    icon_on: COD_BUCKET
+    icon_off: COD_BUCKET
+    locked: false
+  PREVENT_SPAWN_HOSTILE:
+    name: "&bPrevent Spawn of Hostile Mobs"
+    lore: "&fPrevents hostile mob spawning"
+    icon_on: SPAWNER
+    icon_off: SPAWNER
+    locked: false
+  PREVENT_SPAWN_NONHOSTILE:
+    name: "&bPrevent Spawn of Non-Hostile Mobs"
+    lore: "&fPrevents non-hostile mob spawning"
+    icon_on: SPAWNER
+    icon_off: SPAWNER
+    locked: false
+  PREVENT_SPAWN_EVOKER:
+    name: "&bPrevent Evoker Spawning"
+    lore: "&fPrevents Evokers from spawning in the field"
+    icon_on: SPAWNER
+    icon_off: SPAWNER
+    locked: false
+  PREVENT_SPAWN_ILLUSIONER:
+    name: "&bPrevent Illusioner Spawning"
+    lore: "&fPrevents Illusioners from spawning in the field"
+    icon_on: SPAWNER
+    icon_off: SPAWNER
+    locked: false
+  PREVENT_SPAWN_PHANTOM:
+    name: "&bPrevent Phantom Spawning"
+    lore: "&fPrevents Phantoms from spawning in the field"
+    icon_on: SPAWNER
+    icon_off: SPAWNER
+    locked: false
+  PREVENT_SPAWN_PILLAGER:
+    name: "&bPrevent Pillager Spawning"
+    lore: "&fPrevents Pillagers from spawning in the field"
+    icon_on: SPAWNER
+    icon_off: SPAWNER
+    locked: false
+  PREVENT_SPAWN_RAVAGER:
+    name: "&bPrevent Ravager Spawning"
+    lore: "&fPrevents Ravagers from spawning in the field"
+    icon_on: SPAWNER
+    icon_off: SPAWNER
+    locked: false
+  PREVENT_SPAWN_VEX:
+    name: "&bPrevent Vex Spawning"
+    lore: "&fPrevents Vex from spawning in the field"
+    icon_on: SPAWNER
+    icon_off: SPAWNER
+    locked: false
+  PREVENT_SPAWN_VINDICATOR:
+    name: "&bPrevent Vindicator Spawning"
+    lore: "&fPrevents Vindicator from spawning in the field"
+    icon_on: SPAWNER
+    icon_off: SPAWNER
+    locked: false
+  PREVENT_SPAWN_WANDERING_TRADER:
+    name: "&bPrevent Wandering Trader Spawning"
+    lore: "&fPrevents Wandering Traders & their llamas from|&fspawning in the field"
+    icon_on: SPAWNER
+    icon_off: SPAWNER
+    locked: false
+  PREVENT_SPAWNER_EGG:
+    name: "&bPrevent Spawner Eggs"
+    lore: "&fPrevents Spawner Eggs from being used"
+    icon_on: DOLPHIN_SPAWN_EGG
+    icon_off: DOLPHIN_SPAWN_EGG
+    locked: false
+  PREVENT_SPLASHPOTION_EFFECT:
+    name: "&bPrevent Splash Potion effect"
+    lore: "&fPrevents splash potion effects"
+    icon_on: SPLASH_POTION
+    icon_off: SPLASH_POTION
+    locked: false
+  PREVENT_SPONGE_ABSORB:
+    name: "&bPrevent Sponge Absorb"
+    lore: "&fPrevents sponges from absorbing water"
+    icon_on: SPONGE
+    icon_off: SPONGE
+    locked: false
+  PREVENT_TAME_BY_NONALLOWED:
+    name: "&bPrevent Taming"
+    lore: "&fPrevents Non-Allowed players|&ffrom taming an animal"
+    icon_on: BONE
+    icon_off: BONE
+    locked: false
+  PREVENT_TELEPORT_TO:
+    name: "&bPrevent Teleport To"
+    lore: "&fPrevents Non-Allowed players|&ffrom teleporting to the field"
+    icon_on: ENDER_PEARL
+    icon_off: ENDER_PEARL
+    locked: false
+  PREVENT_TNT_PRIMING:
+    name: "&bPrevent TNT Priming"
+    lore: "&fPrevents TNT from priming to explode in the field"
+    icon_on: TNT
+    icon_off: TNT
+    locked: false
+  PREVENT_VEHICLE_ENTER_ALL:
+    name: "&bPrevent Vehicle Enter for All"
+    lore: "&fPrevent anyone from entering a vehicle"
+    icon_on: SADDLE
+    icon_off: SADDLE
+    locked: false
+  PREVENT_VEHICLE_ENTER_BY_NONALLOWED:
+    name: "&bPrevent Vehicle Enter by Non-Allowed"
+    lore: "&fPrevents Non-Allowed players|&ffrom entering vehicles"
+    icon_on: SADDLE
+    icon_off: SADDLE
+    locked: false
+  PREVENT_VEHICLE_ENTER_BY_NONPLAYER:
+    name: "&bPrevent Vehicle Enter By Non-Player"
+    lore: "&fPrevents Non-Players from|&fentering vehicles"
+    icon_on: SADDLE
+    icon_off: SADDLE
+    locked: false
+  PREVENT_VEHICLE_EXIT_ALL:
+    name: "&bPrevent Vehicle Exit for All"
+    lore: "&fPrevent anyone from exiting a vehicle"
+    icon_on: SADDLE
+    icon_off: SADDLE
+    locked: false
+  PREVENT_VEHICLE_EXIT_BY_NONALLOWED:
+    name: "&bPrevent Vehicle Exit by Non-Allowed"
+    lore: "&fPrevents Non-Allowed players from|&fexiting vehicles"
+    icon_on: SADDLE
+    icon_off: SADDLE
+    locked: false
+  PREVENT_VEHICLE_EXIT_BY_NONPLAYER:
+    name: "&bPrevent Vehicle Exit By Non-Player"
+    lore: "&fPrevents Non-Players from exiting vehicles"
+    icon_on: SADDLE
+    icon_off: SADDLE
+    locked: false
+  PREVENT_VEHICLE_PLACE_BY_NONALLOWED:
+    name: "&bPrevent Vehicle Place By Non-Allowed"
+    lore: "&fPrevents Non-Players from placing vehicles"
+    icon_on: SADDLE
+    icon_off: SADDLE
+    locked: false
+  PREVENT_VILLAGER_DAMAGE_BY_ALL:
+    name: "&bPrevent Villager Damage by All"
+    lore: "&fPrevent a villager from taking damage|&ffrom anyone"
+    icon_on: SKELETON_SKULL
+    icon_off: SKELETON_SKULL
+    locked: false
+  PREVENT_VILLAGER_DAMAGE_BY_ALLOWED:
+    name: "&bPrevent Villager Damage by Allowed"
+    lore: "&fPrevents a villager taking damage|&ffrom Allowed players"
+    icon_on: SKELETON_SKULL
+    icon_off: SKELETON_SKULL
+    locked: false
+  PREVENT_VILLAGER_DAMAGE_BY_NONALLOWED:
+    name: "&bPrevent Villager Damage by Non-Allowed"
+    lore: "&fPrevents a villager taking damage|&ffrom Non-Allowed players"
+    icon_on: SKELETON_SKULL
+    icon_off: SKELETON_SKULL
+    locked: false
+  PREVENT_VILLAGER_DAMAGE_BY_NONPLAYER:
+    name: "&bPrevent Villager Damage by Non-Player"
+    lore: "&fPrevents a villager taking damage from a Non-Player"
+    icon_on: SKELETON_SKULL
+    icon_off: SKELETON_SKULL
+    locked: false
+  PREVENT_VILLAGER_FIRE:
+    name: "&bPrevent Villager Fire"
+    lore: "&fPrevents Villagers being set on fire"
+    icon_on: CAMPFIRE
+    icon_off: CAMPFIRE
+    locked: false
+  PREVENT_VILLAGER_TRADE_BY_ALL:
+    name: "&bPrevent Villager Trade by All"
+    lore: "&fPrevents anyone from trading with a villager"
+    icon_on: WANDERING_TRADER_SPAWN_EGG
+    icon_off: WANDERING_TRADER_SPAWN_EGG
+    locked: false
+  PREVENT_VILLAGER_TRADE_BY_NONALLOWED:
+    name: "&bPrevent Villager Trade by Non-Allowed"
+    lore: "&fPrevents a Non-Allowed player from|&ftrading with a villager"
+    icon_on: WANDERING_TRADER_SPAWN_EGG
+    icon_off: WANDERING_TRADER_SPAWN_EGG
+    locked: false
+  PREVENT_WATER_FLOW:
+    name: "&bPrevent Water Flow"
+    lore: "&f"
+    icon_on: WATER_BUCKET
+    icon_off: WATER_BUCKET
+    locked: false
+  PREVENT_WATER_FLOW_TO:
+    name: "&bPrevents water flow"
+    lore: "&f"
+    icon_on: WATER_BUCKET
+    icon_off: WATER_BUCKET
+    locked: false
+  PREVENT_WATER_PLACE:
+    name: "&bPrevent Water Place"
+    lore: "&fPrevents a Non-Allowed player from|&fplacing water in the field"
+    icon_on: WATER_BUCKET
+    icon_off: WATER_BUCKET
+    locked: false
+  REMOVE_FIRED_ARROWS_BY_NONALLOWED:
+    name: "&bRemove Fired Arrows by Non-Allowed"
+    lore: "&fRemoves any arrows fired by a Non-Allowed player"
+    icon_on: ARROW
+    icon_off: ARROW
+    locked: false
+  REMOVE_FIRED_FLAME_ARROWS_BY_NONALLOWED:
+    name: "&bRemoves Flame Arrows by Non-Allowed"
+    lore: "&fRemoves flame arrows fired by|&fa Non-Allowed player"
+    icon_on: ARROW
+    icon_off: ARROW
+    locked: false
+  REPAIR_MAIN_HAND_ITEM:
+    name: "&bRepair Item in Main Hand"
+    lore: "&fRepairs the item in an Allowed|&fplayers main hand"
+    icon_on: GRINDSTONE
+    icon_off: GRINDSTONE
+    locked: false
+  RUN_COMMAND:
+    name: "&bRun Command"
+    lore: "&fRuns a command when a player enters|&for leaves a field"
+    icon_on: COMMAND_BLOCK
+    icon_off: COMMAND_BLOCK
+    locked: false
+  SNITCH_ON_ENTER:
+    name: "&bSnitch on Enter"
+    lore: "&fAlerts the owner (if online) if a|&fnon-allowed player enters the Domain field"
+    icon_on: LIME_STAINED_GLASS_PANE
+    icon_off: BARRIER
+    locked: false
+  SNITCH_ON_LEAVE:
+    name: "&bSnitch on Leave"
+    lore: "&fAlerts the owner (if online) if a|&fnon-allowed player leaves the Domain field"
+    icon_on: LIME_STAINED_GLASS_PANE
+    icon_off: BARRIER
+    locked: false
+  TELEPORT_TO:
+    name: "&bTeleport when in field"
+    lore: "&fTeleports the player to the set|&flocation if in the field"
+    icon_on: SEA_LANTERN
+    icon_off: SEA_LANTERN
+    locked: false
