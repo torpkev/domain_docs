@@ -23,9 +23,9 @@ A full breakdown of each flag is listed below:
 
 ---
 
-DISPLAY_FAREWELL
+**DISPLAY_FAREWELL**
 
-    Displays a message when a player leaves the field
+> Displays a message when a player leaves the field
 
 DISPLAY_WELCOME
 
