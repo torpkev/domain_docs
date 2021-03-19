@@ -2,7 +2,7 @@
 
 [Home](https://torpkev.github.io/domain_docs)
 
-## Configuration
+### Configuration
 
 You can control how Domain works by altering config.yml, while flags.yml, gui.yml and lang.yml give you control over the language and blocks used in menus.
 
@@ -10,13 +10,13 @@ You can control how Domain works by altering config.yml, while flags.yml, gui.ym
 
 - [flags.yml](https://torpkev.github.io/domain_docs/resources/flags.yml)
   > There is also an alternate version here that uses different blocks for different flags.  This is designed for 1.16 and likely will not work in prior versions:
-  > [flags.yml] - Provided by Dad4Service
+  > [flags.yml](https://torpkev.github.io/domain_docs/resources/user/dad4service/flags.yml) - Provided by Dad4Service
 
 - [gui.yml](https://torpkev.github.io/domain_docs/resources/gui.yml)
 
 - [lang.yml](https://torpkev.github.io/domain_docs/resources/lang.yml) - See more information on the language file by clicking [here](https://torpkev.github.io/domain_docs/language)
 
-## Domain Blocks
+### Domain Blocks
 
 Domain comes with several pre-configured fields that may suit your needs, however, due to the configurable nature of Domain, it is strongly recommended that you use them only as a reference to design your own fields.
 
