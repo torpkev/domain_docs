@@ -17,3 +17,5 @@ Best of all, Domain is being actively developed, so you're not stuck with an out
 [Default Files](https://torpkev.github.io/domain_docs/defaultfiles)
 
 [Creating Your Own Blocks](https://torpkev.github.io/domain_docs/createnew)
+
+[Bypass Mode](https://torpkev.github.io/domain_docs/bypass)
