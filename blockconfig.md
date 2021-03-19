@@ -212,7 +212,7 @@ Spawner fields allow mobs to spawn inside of a Domain field in the same manner a
 
 You could also utilize a spawn block over a large area to spawn in multiple mobs on a continuous basis, for example, if you had a PVE server and wanted to make life difficult for your players, you could spawn 10 zombies every 20 seconds within the field, the exact spawn location would differ each time, and would not need to be in a compressed area like a mob spawner block.
 
-Spawner fields can spawn multiple types of mob at the same time, spawn based on chance, if they're in a specific world, spawn as baby (where the mob is Ageable), can prevent spawning if not over/in water or in a slime chunk or if a maximum number of mobs exist within a range.  You can also specidy minimum and maximum light levels for the mobs to spawn in.
+Spawner fields can spawn multiple types of mob at the same time, spawn based on chance, if they're in a specific world, spawn as baby (where the mob is Ageable), can prevent spawning if not over/in water or in a slime chunk or if a maximum number of mobs exist within a range.  You can also specify minimum and maximum light levels for the mobs to spawn in.
 
 For a spawner block to work, a player must be within range, and that player MUST be in survival mode.  This prevents players from mob grinding in creative, or staff members triggering it while they're in spectator mode.  The field must also be enabled, and finally, MUST have the SPAWN flag enabled.  If the field is disabled or the SPAWN flag is set to false or not present, mobs will NOT spawn.
 
