@@ -19,7 +19,7 @@ Create a new Domain Block that provides the level of protection that you want ac
 
 This Domain Block should be used ONLY for your spawn and should not be accessible to your players.
 
-Set field order to 1 (This will be important for [nested fields](https://torpkev.github.io/domain_docs/faq/nestedfields)
+Set field order to 1 (This will be important for [nested fields](https://torpkev.github.io/domain_docs/faq/nestedfields))
 
 ## Step 2
 
@@ -41,3 +41,13 @@ Set the name, welcome and farewell messages
 Open the Domain Block by right clicking it with an open hand
 Go into Edit menu
 Click the name/welcome/farewell buttons and set them to be sensible values
+
+## Step 5
+
+Identify any areas where you need to allow a flag you're preventing in your main spawn area.
+
+If you have some, create the Domain Block for them, again, this block should be considered for spawn ONLY.  This will save your headaches later on, which you will have if players start using it and the config needs to change.
+
+Make sure the field_order is a higher number than spawn, I find increasing to 5 is helpful as it gives some wiggle room in case you want to add more in.
+
+Place the new fields, repeat step 3 and 4 on the new field.  
