@@ -1,5 +1,7 @@
 # Flags
 
+[Home](https://torpkev.github.io/domain_docs)
+
 Domain has over 200 flags that can be combined in order to grant or prevent access to nearly anything in the game.
 
 Each flag can be either true or false.  If true, the flag is active in that field, if false, the flag is not active in that field.  
