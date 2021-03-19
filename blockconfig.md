@@ -7,6 +7,7 @@ Below is a breakdown of each value that is used in the block configuration along
 ---
 
 
+
 #### Block Key
 
 Block key is the internal name used to identify this type of block.  It MUST remain unique and should not contain spaces or any special characters
