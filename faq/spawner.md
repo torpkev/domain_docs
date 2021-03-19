@@ -8,7 +8,7 @@ Domain Spawner fields offer more flexibility and security to mob spawning than a
 
 - Ability to spawn multiple mob types at once
 
-- You can specify a chance of spawning to limit it
+- You can specify a chance out of 100 for if the mob spawns
 
 - You get to choose the size of the area where they can spawn
 
@@ -57,6 +57,7 @@ For the mob spawner to work, several conditions must be met.
 ## I checked all that and it STILL isn't working!
 
 Turn on debug mode and check the console.
+
 ***NOTE: Debug mode will spam your console - be sure to turn it off again after about a minute***
 
     /domain debug
