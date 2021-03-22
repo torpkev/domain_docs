@@ -24,7 +24,7 @@ Domain fields are rented by right clicking a rent sign - to create a rent sign, 
 
 ![Empty Sign](https://torpkev.github.io/domain_docs/images/empty_sign.png)
 
-![Rent Sign](https://torpkev.github.io/domain_docs/images/rent_sign.png)
+![Rent Sign](https://torpkev.github.io/domain_docs/images/domain_sign.png)
 
 #### Renting the field
 
