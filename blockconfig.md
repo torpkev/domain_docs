@@ -1,4 +1,4 @@
-![Domain](/images/domain_alt_biglogo.png)
+![Domain](/images/domain_alt_small.png)
 
 # Block Configuration
 
