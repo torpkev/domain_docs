@@ -1,4 +1,4 @@
-![Domain](/images/domain_logo_400.png)
+![Domain](/images/domain_alt_biglogo.png)
 
 Domain is designed for Spigot for Minecraft 1.13/1.14/1.15/1.16, has over 150 flags that can be mixed together to form custom Domain blocks. These blocks can be provided or sold to your players to protect their builds from monsters and other players.
 
