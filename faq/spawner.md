@@ -1,4 +1,4 @@
-![Domain](/images/domain_alt_small.png)
+![Domain](https://torpkev.github.io/domain_docs/images/domain_alt_small.png)
 
 # Spawner
 
