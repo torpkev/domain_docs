@@ -1,3 +1,5 @@
+![Domain](/images/domain_alt_small.png)
+
 # Flags
 
 [Home](https://torpkev.github.io/domain_docs)
