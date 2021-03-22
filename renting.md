@@ -110,7 +110,7 @@ If the field is not currently rented, the rent signs will update to the new amou
 
 To prevent a field being rented, set the cost or days to 0.  Both must be more than 0 to be available.  When the field is not available, it will change as so:
 
-![Rent NA](https://torpkev.github.io/domain_docs/images/rent_na.png)
+![Rent Na](https://torpkev.github.io/domain_docs/images/rent_na.png)
 
 #### Evicting Players
 
