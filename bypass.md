@@ -22,7 +22,7 @@ And then use the following command to toggle it on or off.
     
 Players in bypass mode will have a bossbar at the top of the page.
 
-![Bossbar](https://torpkev.github.io/domain_docs/images/domain_bypass.png)
+![Bypass](https://torpkev.github.io/domain_docs/images/domain_bypass.png)
 
 Players with one of the following permissions would also receive a notification that players are in bypass mode:
 
