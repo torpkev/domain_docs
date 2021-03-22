@@ -1,3 +1,5 @@
+![Domain](/images/domain_alt_small.png)
+
 # Creating New Blocks
 
 [Home](https://torpkev.github.io/domain_docs)
