@@ -114,7 +114,7 @@ To prevent a field being rented, set the cost or days to 0.  Both must be more t
 
 #### Evicting Players
 
-Evicting players is not currently available to players
+Evicting players is not currently available to players.
 
 ### Data File
 
