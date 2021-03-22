@@ -7,12 +7,15 @@ Resizing a field is very simple.
 - Right click the Domain Block with an empty hand
 
 - Click the Edit Menu
+
  ![Edit](https://torpkev.github.io/domain_docs/images/edit_button.png)
 
 - Cick the Resize button
+
  ![ResizeButton](https://torpkev.github.io/domain_docs/images/resize_button.png)
  
 - This will give you the Resize Wand
+
  ![ResizeWand](https://torpkev.github.io/domain_docs/images/resize_wand.png)
 
 - Left click the first corner of the cuboid with the Resize wand in your main hand
