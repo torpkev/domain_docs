@@ -1,3 +1,5 @@
+![Domain](/images/domain_alt_biglogo.png)
+
 # Block Configuration
 
 [Home](https://torpkev.github.io/domain_docs)
