@@ -440,6 +440,12 @@ flags:
     icon_on: LIME_STAINED_GLASS_PANE
     icon_off: RED_STAINED_GLASS_PANE
     locked: false
+  PREVENT_ENDERMAN_GRIEF:
+    name: "&bPrevent Enderman Grief"
+    lore: "&fPrevents an enderman from picking|&fup a block in the field"
+    icon_on: LIME_STAINED_GLASS_PANE
+    icon_off: RED_STAINED_GLASS_PANE
+    locked: false
   PREVENT_ENDERPEARL_TO:
     name: "&bPrevent Enderpearl To"
     lore: "&fPrevents Non-Allowed players from|&fEnderpearl teleporting to the field"
