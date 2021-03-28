@@ -2,7 +2,7 @@
 
 # Change Log 1.8.0
 
-[Home](https://torpkev.github.io/domain_docs)
+[Home](https://torpkev.github.io/domain_docs) - [Back to Change Logs](https://torpkev.github.io/domain_docs/changelog)
 
 This is a massive update for Domain - roughly 70% of the code has been rewritten from scratch, including the core DomainBlock classes, visualization, reading/writing from the yml files, and removal of a lot of duplicated code and classes.
 
