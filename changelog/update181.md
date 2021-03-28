@@ -2,7 +2,7 @@
 
 # Change Log 1.8.1
 
-[Home](https://torpkev.github.io/domain_docs)
+[Home](https://torpkev.github.io/domain_docs) - [Back to Change Logs](https://torpkev.github.io/domain_docs/changelog)
 
 Minor bug fixes, plus a new flag
 
