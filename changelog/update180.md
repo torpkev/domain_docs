@@ -42,7 +42,7 @@ Changes to Domain files
 
 Add or modify the following entries to the respective files:
 
-####lang.yml
+#### lang.yml
 
     admin_delete_block_success: "&aSUCCESS &f- Field has been &4removed"
     admin_disable_block_success: "&aSUCCESS &f- Field has been &4disabled"
@@ -100,7 +100,7 @@ Add or modify the following entries to the respective files:
     usage_search: "Usage: /domain search &bowner&f|&btype&f|&bworld &6<search term>&r"
     version: "<%name%> - Version <%ver%>"
 
-####gui.yml
+#### gui.yml
 
     adminblock_set:
       material: PLAYER_HEAD
@@ -124,7 +124,7 @@ Add or modify the following entries to the respective files:
       name: "&bRent Days"
       lore: "&fSets the rent days"
 
-####flags.yml
+#### flags.yml
 
     SPAWN:
       name: "&dMob Spawning"
