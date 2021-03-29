@@ -93,6 +93,8 @@ A full breakdown of each flag is listed below:
 | PREVENT_DROP_ITEM_BY_NONALLOWED | Prevents non-allowed players from dropping items |
 | PREVENT_ELYTRA_GLIDING | Prevent Elytra glinding |
 | PREVENT_END_PORTAL_BY_NONALLOWED | Prevents non-allowed players from using an end portal |
+| PREVENT_ENDERMAN_AGGRESSION | Prevents an enderman becoming hostile towards any player in the field |
+| PREVENT_ENDERMAN_GRIEF | Prevents an enderman picking up blocks in the field |
 | PREVENT_ENDERPEARL_TO | Prevents enderpearls being used to teleport into the field |
 | PREVENT_EXIT_BY_NONALLOWED | Prevents non-allowed players from leaving the field |
 | PREVENT_EXPLOSION_DAMAGE | Prevents explosion damage |
