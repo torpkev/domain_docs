@@ -32,6 +32,8 @@ Best of all, Domain is being actively developed, so you're not stuck with an out
 
 View some of the frequently asked questions [here](https://torpkev.github.io/domain_docs/faq)
 
+Looking to use the API?  Javadocs are [here](https://torpkev.github.io/domain_docs/javadoc)
+
 If you have other questions, please reach out on [Discord](https://discord.gg/crU8Gsr2TG)
 
 ## Updates
