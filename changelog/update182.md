@@ -22,3 +22,12 @@ You must either have **domain.admin** permission or run from console
 ### Bug Fixes
 
 - Data files with worlds that no longer exist will NOT load and will generate an error on startup
+
+### Update Language File
+
+Add the following to lang.yml
+
+    spawn_event_disabled: "Spawn event is disabled"
+    spawn_event_enabled: "Spawn event is enabled"
+    move_event_disabled: "Player Move event is disabled"
+    move_event_enabled: "Player Move event is enabled"
