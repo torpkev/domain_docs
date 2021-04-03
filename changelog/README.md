@@ -4,7 +4,9 @@
 
 [Home](https://torpkev.github.io/domain_docs)
 
-[1.8.1](https://torpkev.github.io/domain_docs/changelog/update181)
+[1.8.2](https://torpkev.github.io/domain_docs/changelog/update181) - 2 new commands for troubleshotting + bug fixes
 
-[1.8.0](https://torpkev.github.io/domain_docs/changelog/update180)
+[1.8.1](https://torpkev.github.io/domain_docs/changelog/update181) - 2 new flags + bug fixes
+
+[1.8.0](https://torpkev.github.io/domain_docs/changelog/update180) - Major Update
 
