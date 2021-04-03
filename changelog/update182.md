@@ -22,6 +22,7 @@ You must either have **domain.admin** permission or run from console
 ### Bug Fixes
 
 - Data files with worlds that no longer exist will NOT load and will generate an error on startup
+- The cow.yml file was not being included in the jar file which caused issues when the config.yml file did not exist.  The missing file is now included, and additional checks are put in place to generate the default resource files as needed.
 
 ### Update Language File
 
