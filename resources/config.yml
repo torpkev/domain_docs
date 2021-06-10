@@ -113,3 +113,17 @@ blocked_commands:
     - /duty
     - /suicide
     - /spawn
+
+# If true, when a player runs /domain me - they'll have an option to teleport to the field
+allow_self_teleport_to_field: false
+
+# Number of minutes between a new field being placed and the idle kick / kick command being accessible
+new_field_kick_cooldown: 10
+
+# Number of seconds between checking if someone is idle.  Set to 0 to disable completely
+idle_cycle_seconds: 20
+
+# Number of times the idle timer runs before considering someone idle
+# If idle_cycle_seconds = 20 and idle_cycles_before_kick = 6, then 20 * 6 = 120 seconds
+# So if someone does not change their location in 120 seconds, they are considered idle
+idle_cycles_before_kick: 6
