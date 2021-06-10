@@ -158,6 +158,12 @@ flags:
     icon_on: LIME_STAINED_GLASS_PANE
     icon_off: RED_STAINED_GLASS_PANE
     locked: false
+  KICK_OUT_IDLE_NONALLOWED:
+    name: "&bKick idle players out"
+    lore: "&fKicks out players who are not allowed|&fin the field if they idle for too long"
+    icon_on: LIME_STAINED_GLASS_PANE
+    icon_off: RED_STAINED_GLASS_PANE
+    locked: false
   MEMBERS_ONLY:
     name: "&bMembers Only Area"
     lore: "&fPrevents access to players without a set permission"
