@@ -188,3 +188,6 @@ visualize_corners: false
 # If true, visualize ring will force any Domain visualization to use the ‘ring’ visualization which surrounds the field, but only at player height.
 # If false, it will use either corner visualization if that is set true, if not, then it will default back to cube visualization.
 visualize_ring: false
+
+# Set allow_who_in_kick to true if you want to allow players to kick non-allowed players from their field
+allow_who_in_kick: true
