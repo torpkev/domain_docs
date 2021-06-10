@@ -194,3 +194,6 @@ spawn:
     max_distance: 16
     # Sets a cap on the number of this type of entity that can spawn within 32 blocks
     max_entities: 5
+
+# Set allow_who_in_kick to true if you want to allow players to kick non-allowed players from their field
+allow_who_in_kick: true
