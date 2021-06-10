@@ -4,6 +4,8 @@
 
 [Home](https://torpkev.github.io/domain_docs)
 
+[1.8.3](https://torpkev.github.io/domain_docs/changelog/update183) - Idle kicking, kick from field, /domain me command, + bug fixes
+
 [1.8.2](https://torpkev.github.io/domain_docs/changelog/update182) - 2 new commands for troubleshooting + bug fixes
 
 [1.8.1](https://torpkev.github.io/domain_docs/changelog/update181) - 2 new flags + bug fixes
