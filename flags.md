@@ -50,6 +50,7 @@ A full breakdown of each flag is listed below:
 | HEAL_ALL_PLAYERS | Heals any player in the field |
 | HEAL_ALLOWED_PLAYER | Heals allowed players in the field |
 | INSTANT_HEAL_ALLOWED_PLAYER | Instantly heals allowed players in the field |
+| KICK_OUT_IDLE_NONALLOWED | If enabled in config, will kick non-allowed players out of the field if they idle for too long |
 | MEMBERS_ONLY | Prevents access to any player without a specific permission as defined in block config |
 | PREVENT_ACCESS_BY_NONALLOWED | Prevents non-allowed players from entering the field, and will teleport them back to spawn if they try repeatedly |
 | PREVENT_ALLOWED_PLAYER_CONTACT_DAMAGE | Prevents allowed players from taking contact damage |
