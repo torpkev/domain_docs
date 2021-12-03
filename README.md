@@ -1,6 +1,6 @@
 ![Domain](/images/domain_alt_small.png)
 
-Domain is a land claiming & protection plugin for Spigot/Paper 1.13 - 1.16
+Domain is a land claiming & protection plugin for Spigot/Paper 1.14 - 1.18
 
 It features a simple to use block management system that will allow your users to resize their field, to enable/disable their fields, display the field boundaries or even make sub-fields which they can rent out to other players.
 
