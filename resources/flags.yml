@@ -1316,3 +1316,9 @@ flags:
     icon_on: LIME_STAINED_GLASS_PANE
     icon_off: RED_STAINED_GLASS_PANE
     locked: false
+  PREVENT_INTERACT_CAULDRON_BY_NONALLOWED:
+    name: "&bPrevent Cauldron Access"
+    lore: "&fPrevents a Non-Allowed player from|&faccessing cauldrons"
+    icon_on: LIME_STAINED_GLASS_PANE
+    icon_off: RED_STAINED_GLASS_PANE
+    locked: false
