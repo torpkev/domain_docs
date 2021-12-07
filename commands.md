@@ -157,3 +157,9 @@ If no block key is provided, opens a GUI to allow you to choose the block.  If b
 *Requries the player to be in Domain Bypass mode or, run from console*
 
     /domain give <player> <block key>
+
+## Cancel a resize
+
+Cancels any existing resize you're doing
+
+    /domain cancel
