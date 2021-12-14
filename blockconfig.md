@@ -194,7 +194,7 @@ If true, prevent resize will stop the user from resizing the field by using the 
 #### Snap to Chunk (from 1.9.4)
 
 Snap to chunk when true will default the field to chunk and ignore the default_radius, default_height_up, default_height_down, and ignore_y_axis.
-When combined with prevent_resize, you can lock the Domain Block to a single chunk
+When combined with prevent_resize, you can lock the Domain Block to a single chunk.  It is HIGHLY recommended you use visualize_corners = false, visualize_ring = true
 
     snap_to_chunk: false
 
