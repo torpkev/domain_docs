@@ -190,6 +190,14 @@ If true, prevent resize will stop the user from resizing the field by using the 
 
     prevent_resize: false
 
+
+#### Snap to Chunk (from 1.9.4)
+
+Snap to chunk when true will default the field to chunk and ignore the default_radius, default_height_up, default_height_down, and ignore_y_axis.
+When combined with prevent_resize, you can lock the Domain Block to a single chunk
+
+    snap_to_chunk: false
+
 #### One-time Use
 
 If true, one time use will prevent a player from 'taking' a field they have already placed.  When set to false, the player can take the field, which will remove the field and return the Domain Block to the player so they can place it again.  If true, attempting to take the field will destroy it.
