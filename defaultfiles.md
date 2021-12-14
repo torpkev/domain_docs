@@ -32,6 +32,8 @@ Domain comes with several pre-configured fields that may suit your needs, howeve
 
 - [griefprevent.yml](https://torpkev.github.io/domain_docs/resources/blocks/griefprevent.yml) - A simple grief protection field, intended for a single building/area
 
+- [miningrights.yml](https://torpkev.github.io/domain_docs/resources/blocks/miningrights.yml) - This field shows how to snap to chunk and is intended for single-use mining claims
+
 - [moballow.yml](https://torpkev.github.io/domain_docs/resources/blocks/moballow.yml) - An add-on field, intended to be placed with a City field, and allows spawning of mobs within it (excellent for mob grinders)
 
 - [nofly.yml](https://torpkev.github.io/domain_docs/resources/blocks/nofly.yml) - A field that prevents Elytra gliding
