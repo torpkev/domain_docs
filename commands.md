@@ -158,8 +158,38 @@ If no block key is provided, opens a GUI to allow you to choose the block.  If b
 
     /domain give <player> <block key>
 
+## Domain Resize
+
+Gives the player the resize wand for the field they are standing in if they are the owner (also puts the field into resize mode)
+
+    /domain resize
+    
 ## Cancel a resize
 
 Cancels any existing resize you're doing
 
     /domain cancel
+
+## Domain Open
+
+Opens the current field the player is standing in if they are the owner
+
+    /domain open
+    
+## Domain Expand
+
+Expands the current field in the direction specified by the number of blocks requested
+Direction can be:  north, east, south, west, up, down   (or alternately: n, e, s, w, u, d)
+Blocks is the number of blocks in that direction the field will expand to, keeping in mind that the field is a cuboid, so it will expand for full width/height
+Note: Standard resize rules apply (block in field, max volume etc.)
+
+    /domain expand <direction> <blocks>
+    
+## Domain Shrink
+
+Shrinks the current field in the direction specified by the number of blocks requested
+Direction can be:  north, east, south, west, up, down   (or alternately: n, e, s, w, u, d)
+Blocks is the number of blocks in that direction the field will shrink to, keeping in mind that the field is a cuboid, so it will shrink for full width/height
+Note: Standard resize rules apply (block in field, max volume etc.)
+
+    /domain shrink <direction> <blocks>
