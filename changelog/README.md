@@ -4,6 +4,10 @@
 
 [Home](https://torpkev.github.io/domain_docs)
 
+[1.9.9](https://torpkev.github.io/domain_docs/changelog/update197) - Provides 1.19 support & new flag
+
+[1.9.8](https://torpkev.github.io/domain_docs/changelog/update198) - Bug fixes
+
 [1.9.7](https://torpkev.github.io/domain_docs/changelog/update197) - Adds a new API function for Bazaar 1.2.0
 
 [1.9.6](https://torpkev.github.io/domain_docs/changelog/update196) - Added expand/shrink, resize, and open commands + bug fixes
