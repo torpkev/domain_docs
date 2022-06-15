@@ -90,6 +90,7 @@ A full breakdown of each flag is listed below:
 | PREVENT_COMMAND_TELEPORT_BY_NONALLOWED | Prevents non-allowed players from running teleport commands |
 | PREVENT_CROP_DAMAGE_BY_NONALLOWED | Prevents non-allowed players from damaging crops |
 | PREVENT_CROP_DAMAGE_BY_NONPLAYER | Prevents non-players from damaging crops |
+| PREVENT_CROP_HARVEST_BY_NONALLOWED | Prevents non-allowed players from harvesting crops |
 | PREVENT_DOOR_ACCESS_BY_NONALLOWED | Prevents non-allowed players from accessing doors |
 | PREVENT_DROP_ITEM_BY_NONALLOWED | Prevents non-allowed players from dropping items |
 | PREVENT_ELYTRA_GLIDING | Prevent Elytra glinding |
