@@ -19,27 +19,6 @@
 #     locked: true
 # In this example, the PREVENT_SPONGE_ABSORB flag would be a sponge if enabled and a barrier if disabled,
 # but is locked so the user cannot change it unless they have Domain Bypass mode enabled.
-# flags is a list of flags and replacement name, lore, locked status and icons to use in the menus
-# & colors codes can be used in name and lore - if you use a new line in the lore (use a | character)
-# you will need to reapply the color code for the new line
-# Formatted as follows:
-# flags:
-#   <FLAG NAME>:
-#     name: <Easy to read name>
-#     lore: <Easy to read lore - use | for a new line>
-#     icon_on: <the material to use for an enabled flag>
-#     icon_off: <the material to use for a disabled flag>
-#     locked: <true/false>
-# Example:
-# flags:
-#   PREVENT_SPONGE_ABSORB:
-#     name: "&bPrevent Sponge Absorb"
-#     lore: "&fPrevents sponges from absorbing water|&fin the field"
-#     icon_on: SPONGE
-#     icon_off: BARRIER
-#     locked: true
-# In this example, the PREVENT_SPONGE_ABSORB flag would be a sponge if enabled and a barrier if disabled,
-# but is locked so the user cannot change it unless they have Domain Bypass mode enabled.
 flags:
   SPAWN:
     name: "&dMob Spawning"
