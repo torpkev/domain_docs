@@ -546,3 +546,6 @@ usage_expand: "Usage: /domain expand &b <direction> <blocks>&r\nDirection is: no
 usage_shrink: "Usage: /domain shrink &b <direction> <blocks>&r\nDirection is: north/east/south/west/up/down"
 no_field: "&4No Domain field found"
 unable_give_resize_wand: "&4Sorry, you must have an open inventory slot to get the resize wand"
+crop_break_refused: "&4You cannot harvest crops in this field"
+crop_planting_refused: "&4You cannot plant crops here"
+break_domain_block: "&cSorry, you cannot break a Domain block"
