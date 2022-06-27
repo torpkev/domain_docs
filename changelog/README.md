@@ -4,6 +4,8 @@
 
 [Home](https://torpkev.github.io/domain_docs)
 
+[1.9.10](https://torpkev.github.io/domain_docs/changelog/update1910) - Adds a new flag, updates behavior on PREVENT_BREAK/PREVENT_BUILD, bug fixes
+
 [1.9.9](https://torpkev.github.io/domain_docs/changelog/update199) - Provides 1.19 support & new flag
 
 [1.9.8](https://torpkev.github.io/domain_docs/changelog/update198) - Bug fixes
