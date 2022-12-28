@@ -4,6 +4,10 @@
 
 [Home](https://torpkev.github.io/domain_docs)
 
+[1.9.13](https://torpkev.github.io/domain_docs/changelog/update1913) - Bug fixes
+
+[1.9.12](https://torpkev.github.io/domain_docs/changelog/update1912) - Added Vouchers!
+
 [1.9.11](https://torpkev.github.io/domain_docs/changelog/update1911) - Bug fixes, code cleanup, API changes
 
 [1.9.10](https://torpkev.github.io/domain_docs/changelog/update1910) - Adds a new flag, updates behavior on PREVENT_BREAK/PREVENT_BUILD, bug fixes
