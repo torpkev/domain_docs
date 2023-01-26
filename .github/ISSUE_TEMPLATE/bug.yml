@@ -1,0 +1,57 @@
+name: Bug Report
+description: File a bug report
+title: "Bug: "
+labels: ["bug"]
+assignees:
+  - torpkev
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report.  Please give as much information as possible.  This will allow me to help you quicker and easier.
+  - type: input
+    id: discord
+    attributes:
+      label: Discord Name
+      description: Please give your Discord username so I can get back to you
+      placeholder: "Discord Name"
+    validations:
+      required: true
+  - type: input
+    id: spigotusername
+    attributes:
+      label: Spigot Username
+      description: Support is offered for registered purchasers and trial users.  Pleasse include your Spigot username for verification
+      placeholder: "Spigot Username"
+    validations:
+      required: true
+  - type: input
+    id: spigot
+    attributes:
+      label: Spigot Version
+      description: List the verison of Spigot. Include if this is a fork of Spigot, and what kind
+      placeholder: "Spigot Version"
+    validations:
+      required: true
+  - type: input
+    id: domain
+    attributes:
+      label: Domain Version
+      description: List the verison of Domain
+      placeholder: "Domain Version"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Please give as much information as possible
+      placeholder: "Information"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output including output from /domain debug
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
