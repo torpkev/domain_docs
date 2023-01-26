@@ -1,0 +1,43 @@
+name: Help Request
+description: File a help request
+title: "Help: "
+labels: ["help"]
+assignees:
+  - torpkev
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this help request.  Please give as much information as possible.  This will allow me to help you quicker and easier.  If you believe this is a bug, please cancel and enter as a bug
+  - type: input
+    id: discord
+    attributes:
+      label: Discord Name
+      description: Please give your Discord username so I can get back to you
+      placeholder: "Discord Name"
+    validations:
+      required: true
+  - type: input
+    id: spigot
+    attributes:
+      label: Spigot Version
+      description: List the verison of Spigot. Include if this is a fork of Spigot, and what kind
+      placeholder: "Spigot Version"
+    validations:
+      required: true
+  - type: input
+    id: domain
+    attributes:
+      label: Domain Version
+      description: List the verison of Domain
+      placeholder: "Domain Version"
+    validations:
+      required: true
+  - type: textarea
+    id: what-do-youn-eed
+    attributes:
+      label: What do you need help with?
+      description: Please give as much information as possible
+      placeholder: "Information"
+    validations:
+      required: true
